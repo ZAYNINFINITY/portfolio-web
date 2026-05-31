@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
@@ -17,9 +17,8 @@
   --accent-2: #ffba7a;
   --accent-3: #8b9cff;
   --shadow: 0 30px 90px rgba(0, 0, 0, 0.3);
-  --sans: "Manrope", sans-serif;
-  --display: "Fraunces", serif;
-  --mono: "IBM Plex Mono", monospace;
+  --sans: "Inter", system-ui, sans-serif;
+  --mono: "Inter", system-ui, sans-serif;
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -188,8 +187,8 @@ main {
 
 .nav-pill {
   font-family: var(--mono);
-  font-size: 0.62rem;
-  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent);
   border: 1px solid rgba(142, 240, 207, 0.2);
@@ -226,9 +225,9 @@ main {
 }
 
 .mob-link {
-  font-family: var(--display);
-  font-size: 1.75rem;
-  line-height: 1.1;
+  font-family: var(--sans);
+  font-size: 1.125rem;
+  line-height: 1.2;
   text-decoration: none;
   color: var(--muted);
   padding: 0.45rem 0;
@@ -306,27 +305,27 @@ main {
 
 .hero-eyebrow {
   font-family: var(--mono);
-  font-size: 0.66rem;
-  letter-spacing: 0.22em;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--muted-strong);
   margin-bottom: 1.4rem;
 }
 
 .hero-title {
-  font-family: var(--display);
-  font-size: clamp(4rem, 8.5vw, 7.8rem);
-  line-height: 0.9;
+  font-family: var(--sans);
+  font-size: clamp(1.875rem, 4vw, 3rem);
+  line-height: 1.1;
   font-weight: 600;
-  letter-spacing: -0.05em;
-  max-width: 16ch;
+  letter-spacing: -0.04em;
+  max-width: 13ch;
 }
 
 .hero-body {
   max-width: 41rem;
   margin-top: 1.5rem;
-  font-size: 1rem;
-  line-height: 1.85;
+  font-size: 0.95rem;
+  line-height: 1.75;
   color: var(--muted);
 }
 
@@ -358,8 +357,8 @@ main {
   align-items: center;
   gap: 0.35rem;
   font-family: var(--mono);
-  font-size: 0.62rem;
-  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text);
   border-radius: 999px;
@@ -379,8 +378,8 @@ main {
 
 .hero-tag {
   font-family: var(--mono);
-  font-size: 0.62rem;
-  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--muted);
   padding: 0.5rem 0.72rem;
@@ -406,17 +405,17 @@ main {
 }
 
 .metric-val {
-  font-family: var(--display);
-  font-size: 2rem;
+  font-family: var(--sans);
+  font-size: 1.25rem;
   line-height: 1;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.02em;
   color: var(--text);
 }
 
 .metric-label {
   margin-top: 0.45rem;
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   line-height: 1.45;
 }
 
@@ -478,8 +477,8 @@ main {
   background: rgba(7, 16, 19, 0.65);
   color: var(--text);
   font-family: var(--mono);
-  font-size: 0.58rem;
-  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -511,8 +510,8 @@ main {
 .contact-aside-label,
 .loader-subtitle {
   font-family: var(--mono);
-  font-size: 0.62rem;
-  letter-spacing: 0.2em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -546,8 +545,8 @@ main {
 
 .now-index {
   font-family: var(--mono);
-  font-size: 0.6rem;
-  letter-spacing: 0.14em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   color: var(--accent);
   margin-top: 0.2rem;
   flex-shrink: 0;
@@ -623,8 +622,8 @@ main {
   align-items: center;
   gap: 2rem;
   font-family: var(--mono);
-  font-size: 0.62rem;
-  letter-spacing: 0.18em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--muted-strong);
   white-space: nowrap;
@@ -639,7 +638,7 @@ main {
 }
 
 .section {
-  padding: 7rem 0;
+  padding: 6rem 0;
 }
 
 .section-label {
@@ -648,19 +647,20 @@ main {
 }
 
 .section-title {
-  font-family: var(--display);
-  font-size: clamp(2.5rem, 5.5vw, 4.8rem);
-  line-height: 1;
-  letter-spacing: -0.05em;
-  max-width: 11ch;
+  font-family: var(--sans);
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  line-height: 1.15;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  max-width: 16ch;
 }
 
 .section-sub {
   max-width: 50rem;
   margin-top: 1rem;
   color: var(--muted);
-  font-size: 0.98rem;
-  line-height: 1.8;
+  font-size: 0.875rem;
+  line-height: 1.7;
 }
 
 .identity-grid {
@@ -694,16 +694,16 @@ main {
 }
 
 .identity-card-title {
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 0.95rem;
+  font-weight: 600;
   letter-spacing: -0.02em;
 }
 
 .identity-card-copy {
   margin-top: 0.55rem;
   color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.8;
+  font-size: 0.875rem;
+  line-height: 1.7;
 }
 
 .stack-note-row,
@@ -718,7 +718,7 @@ main {
 .stack-note-index,
 .bring-index {
   font-family: var(--mono);
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   color: var(--accent);
   flex-shrink: 0;
   margin-top: 0.2rem;
@@ -790,18 +790,18 @@ main {
 .project-stage-kicker,
 .project-stage-copy {
   font-family: var(--mono);
-  font-size: 0.64rem;
-  letter-spacing: 0.14em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--muted);
 }
 
 .project-stage-title {
   max-width: 10ch;
-  font-family: var(--display);
-  font-size: clamp(1.9rem, 3vw, 3rem);
-  line-height: 0.95;
-  letter-spacing: -0.05em;
+  font-family: var(--sans);
+  font-size: 1.125rem;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
 }
 
 .project-stage-copy {
@@ -822,23 +822,24 @@ main {
 
 .project-index {
   font-family: var(--mono);
-  font-size: 0.62rem;
-  letter-spacing: 0.18em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   color: var(--accent);
   margin-bottom: 0.45rem;
 }
 
 .project-title {
-  font-family: var(--display);
-  font-size: clamp(1.8rem, 2.5vw, 2.5rem);
-  line-height: 1;
-  letter-spacing: -0.04em;
+  font-family: var(--sans);
+  font-size: 1.125rem;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.03em;
 }
 
 .project-cat {
   font-family: var(--mono);
-  font-size: 0.6rem;
-  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--muted);
   border-radius: 999px;
@@ -852,8 +853,8 @@ main {
 .project-impact {
   margin-top: 0.9rem;
   color: var(--muted);
-  font-size: 0.94rem;
-  line-height: 1.85;
+  font-size: 0.875rem;
+  line-height: 1.7;
 }
 
 .project-impact {
@@ -874,8 +875,8 @@ main {
 
 .project-story-label {
   font-family: var(--mono);
-  font-size: 0.6rem;
-  letter-spacing: 0.18em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent);
 }
@@ -883,15 +884,15 @@ main {
 .project-story-copy {
   margin-top: 0.4rem;
   color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.8;
+  font-size: 0.875rem;
+  line-height: 1.7;
 }
 
 .project-hook {
   margin-top: 0.9rem;
   color: var(--text);
-  font-size: 0.96rem;
-  line-height: 1.8;
+  font-size: 0.875rem;
+  line-height: 1.7;
 }
 
 .project-bullets {
@@ -900,6 +901,7 @@ main {
   color: var(--muted);
   display: grid;
   gap: 0.45rem;
+  font-size: 0.875rem;
 }
 
 .project-bullets li {
@@ -915,8 +917,8 @@ main {
 
 .tech-tag {
   font-family: var(--mono);
-  font-size: 0.6rem;
-  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--muted);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -933,8 +935,8 @@ main {
 
 .project-link {
   font-family: var(--mono);
-  font-size: 0.65rem;
-  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text);
   text-decoration: none;
@@ -972,8 +974,8 @@ main {
 
 .skill-cell-desc {
   color: var(--muted);
-  font-size: 0.9rem;
-  line-height: 1.8;
+  font-size: 0.875rem;
+  line-height: 1.7;
 }
 
 .skill-tags {
@@ -985,8 +987,8 @@ main {
 
 .skill-tag {
   font-family: var(--mono);
-  font-size: 0.6rem;
-  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--text);
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -1001,8 +1003,8 @@ main {
 
 .stack-note-label {
   font-family: var(--mono);
-  font-size: 0.62rem;
-  letter-spacing: 0.2em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent);
 }
@@ -1010,7 +1012,7 @@ main {
 .stack-note-copy {
   margin-top: 0.9rem;
   color: var(--text);
-  font-size: 0.98rem;
+  font-size: 0.875rem;
   line-height: 1.7;
 }
 
@@ -1018,8 +1020,8 @@ main {
   display: inline-flex;
   margin-top: 1rem;
   font-family: var(--mono);
-  font-size: 0.65rem;
-  letter-spacing: 0.14em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text);
   text-decoration: none;
@@ -1058,24 +1060,24 @@ main {
 
 .timeline-label {
   font-family: var(--mono);
-  font-size: 0.6rem;
-  letter-spacing: 0.18em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent);
   margin-bottom: 0.55rem;
 }
 
 .timeline-title {
-  font-size: 1.05rem;
-  font-weight: 700;
+  font-size: 0.95rem;
+  font-weight: 600;
   letter-spacing: -0.02em;
 }
 
 .timeline-copy {
   margin-top: 0.65rem;
   color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.85;
+  font-size: 0.875rem;
+  line-height: 1.7;
 }
 
 .bring-box,
@@ -1137,10 +1139,11 @@ main {
 .contact-mail {
   display: inline-flex;
   margin-top: 0.8rem;
-  font-family: var(--display);
-  font-size: clamp(1.7rem, 4vw, 2.6rem);
-  line-height: 1;
-  letter-spacing: -0.04em;
+  font-family: var(--sans);
+  font-size: 1.25rem;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.03em;
   text-decoration: none;
 }
 
@@ -1176,8 +1179,8 @@ main {
 
 .form-label {
   font-family: var(--mono);
-  font-size: 0.62rem;
-  letter-spacing: 0.18em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--muted-strong);
 }
@@ -1190,7 +1193,7 @@ main {
   color: var(--text);
   padding: 0.95rem 1rem;
   font-family: var(--sans);
-  font-size: 0.95rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   outline: none;
   resize: none;
@@ -1208,8 +1211,8 @@ main {
 
 .form-error {
   font-family: var(--mono);
-  font-size: 0.6rem;
-  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ff7c7c;
 }
@@ -1225,7 +1228,7 @@ main {
 
 .form-note {
   color: var(--muted);
-  font-size: 0.92rem;
+  font-size: 0.875rem;
   line-height: 1.7;
   max-width: 34rem;
 }
@@ -1234,8 +1237,8 @@ main {
 .status-err {
   margin-bottom: 1rem;
   font-family: var(--mono);
-  font-size: 0.68rem;
-  letter-spacing: 0.14em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -1267,8 +1270,8 @@ main {
 
 .footer-copy {
   font-family: var(--mono);
-  font-size: 0.65rem;
-  letter-spacing: 0.16em;
+  font-size: 0.75rem;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--muted-strong);
 }
@@ -1280,7 +1283,7 @@ main {
 }
 
 .footer-link {
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   color: var(--muted);
   text-decoration: none;
 }
@@ -1334,14 +1337,15 @@ main {
 }
 
 .loader-title {
-  font-family: var(--display);
-  font-size: 2.1rem;
-  line-height: 1;
-  letter-spacing: -0.04em;
+  font-family: var(--sans);
+  font-size: 1rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }
 
 .loader-subtitle {
   color: var(--muted);
+  font-size: 0.75rem;
 }
 
 @media (max-width: 1060px) {
@@ -1416,7 +1420,7 @@ main {
 
 @media (max-width: 560px) {
   .hero-title {
-    font-size: clamp(3.1rem, 15vw, 5rem);
+    font-size: clamp(1.875rem, 7vw, 3rem);
   }
 
   .metrics {
