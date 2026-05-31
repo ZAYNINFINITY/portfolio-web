@@ -9,7 +9,7 @@ export const PROFILE = {
   timezone: "GMT+5",
   role: "Full-stack developer and CS student",
   tagline:
-    "Computer Science student building full-stack products that feel calm, clear, and actually useful across frontend, backend, databases, and deployment.",
+    "I build fast, clean web apps that solve real problems across UI, APIs, databases, and deployment.",
 };
 
 export const NAV_LINKS = [
@@ -22,9 +22,20 @@ export const NAV_LINKS = [
 ];
 
 export const HERO_METRICS = [
-  { value: "4+", label: "featured builds on this site" },
-  { value: "3", label: "lanes I work across: UI, API, deployment" },
-  { value: "1", label: "goal: make the next step obvious" },
+  { value: "3", label: "live projects worth checking out" },
+  { value: "1", label: "current SaaS I'm actively shaping" },
+  { value: "4", label: "stack layers I move between comfortably" },
+];
+
+export const HERO_HOOK = "Full-stack developer building fast, clean web apps for startups and students.";
+
+export const HERO_SUBLINE =
+  "I like shipping products that are easy to understand, easy to trust, and strong enough to feel real when someone opens them for the first time.";
+
+export const HERO_PROOF = [
+  "Live products over concept screenshots",
+  "GitHub-first proof of work",
+  "Design that supports the product story",
 ];
 
 export const TECH_STRIP_ITEMS = [
@@ -51,26 +62,26 @@ export const TECH_STRIP_ITEMS = [
 
 export const IDENTITY_CARDS = [
   {
-    title: "Quiet systems",
+    title: "Built to ship",
+    description:
+      "I care about getting things into the hands of real users, not leaving them as ideas or half-finished demos.",
+  },
+  {
+    title: "Clear over flashy",
     description:
       "I like interfaces that feel easy to read, easy to trust, and easy to use on the first try.",
   },
   {
-    title: "Shipping instinct",
-    description:
-      "I care about getting real features online, not just making pretty mockups that never leave the folder.",
-  },
-  {
-    title: "Product curiosity",
+    title: "Product minded",
     description:
       "I enjoy connecting design, backend logic, and deployment into one flow that feels coherent.",
   },
 ];
 
 export const WORKING_PILLARS = [
-  "Translate messy ideas into a clean product shape.",
-  "Build with enough detail that the work feels credible.",
-  "Keep the interface calm so the content can do the talking.",
+  "Turn vague ideas into a product story people can understand quickly.",
+  "Build enough depth that the project feels credible on inspection.",
+  "Keep the interface calm so the work itself can do the talking.",
 ];
 
 export const PROJECTS = [
@@ -79,21 +90,25 @@ export const PROJECTS = [
     title: "Collaborative Workspace Platform",
     category: "Real-time SaaS platform",
     description:
-      "A full-stack collaboration platform with live chat, document collaboration, and a Kanban board for task management.",
+      "Problem: teams need one place to chat, plan, and stay aligned without jumping between tools.",
+    build:
+      "Built realtime chat, collaborative docs, and a Kanban workflow with OAuth, MongoDB, and Socket.io.",
     impact:
-      "Built with React, Node.js, MongoDB, Socket.io, and OAuth authentication.",
+      "A SaaS project that shows product thinking, realtime logic, and multi-user behavior.",
     tech: ["Node.js", "React", "MongoDB", "Socket.io", "OAuth 2.0", "Passport.js"],
     codeUrl: "https://github.com/ZAYNINFINITY",
     liveUrl: "https://collaborative-workspace-rosy.vercel.app",
-    accent: "My current focus - a real-time SaaS story with multi-user interaction.",
+    accent: "Current focus - a real-time SaaS story with multi-user interaction.",
   },
   {
     id: "zse-website",
     title: "ZSE Store",
     category: "E-commerce platform",
     description:
-      "An e-commerce website for a real business with product browsing, authentication, checkout flow, and deployment.",
-    impact: "Built with Next.js, Express, MongoDB, Stripe, and JWT authentication.",
+      "Problem: the store needed a clean buying flow that felt trustworthy and fast on the first visit.",
+    build:
+      "Built product browsing, auth, checkout, and deployment with Next.js, Express, MongoDB, and Stripe.",
+    impact: "A production-style store that shows conversion flow and backend coordination.",
     tech: ["Next.js", "Express", "MongoDB", "Stripe", "JWT"],
     codeUrl: "https://github.com/ZAYNINFINITY/zse-website",
     liveUrl: "https://streamer-dash.netlify.app/",
@@ -104,8 +119,10 @@ export const PROJECTS = [
     title: "Queue Simulator",
     category: "Cross-platform simulation app",
     description:
-      "A queue simulation app with a Flask backend and SQLite database, packaged with Capacitor for cross-platform use.",
-    impact: "Built across web and mobile-focused environments with Python and JavaScript.",
+      "Problem: students needed a clearer way to visualize queue behavior instead of only reading about it.",
+    build:
+      "Built a simulation app with Flask, SQLite, JavaScript, and Capacitor so it could travel across platforms.",
+    impact: "A systems-style project that shows logic, modeling, and portability.",
     tech: ["Python", "Flask", "SQLite", "JavaScript", "Capacitor"],
     codeUrl: "https://github.com/ZAYNINFINITY/DSA-PROJ-V2",
     liveUrl: "https://scrollstreak.netlify.app",
@@ -116,8 +133,10 @@ export const PROJECTS = [
     title: "Car Auction Management System",
     category: "Data-driven web app",
     description:
-      "A car auction system with listings, bidding, transactions, and a MySQL-backed backend.",
-    impact: "Focused on CRUD flows, relational data, and backend logic in PHP and MySQL.",
+      "Problem: auction flows need structured listings, bids, and transactions instead of scattered records.",
+    build:
+      "Built listings, bidding, transactions, and a MySQL-backed backend with PHP, SQL, and JavaScript.",
+    impact: "An older project, but still useful proof of backend structure and data handling.",
     tech: ["PHP", "SQL", "Python", "HTML", "CSS", "JavaScript"],
     codeUrl: "https://github.com/ZAYNINFINITY/CARAUCTION-MANAGEMENT-SYSTEM",
     liveUrl: null,

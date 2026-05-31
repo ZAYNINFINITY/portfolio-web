@@ -319,13 +319,7 @@ main {
   line-height: 0.9;
   font-weight: 600;
   letter-spacing: -0.05em;
-  max-width: 10ch;
-}
-
-.hero-title span {
-  display: block;
-  color: transparent;
-  -webkit-text-stroke: 1px rgba(244, 239, 230, 0.32);
+  max-width: 16ch;
 }
 
 .hero-body {
@@ -348,6 +342,39 @@ main {
   flex-wrap: wrap;
   gap: 0.55rem;
   margin-top: 1.4rem;
+}
+
+.hero-proof,
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 0.9rem;
+}
+
+.hero-proof-item,
+.hero-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text);
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  padding: 0.48rem 0.7rem;
+}
+
+.hero-link {
+  text-decoration: none;
+}
+
+.hero-link:hover {
+  border-color: rgba(142, 240, 207, 0.25);
+  color: var(--accent);
 }
 
 .hero-tag {
@@ -498,6 +525,32 @@ main {
   font-size: 1rem;
   line-height: 1.5;
   color: var(--text);
+}
+
+.now-list {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.now-row {
+  display: flex;
+  gap: 0.85rem;
+  align-items: flex-start;
+  padding-top: 0.8rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.now-index {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  margin-top: 0.2rem;
+  flex-shrink: 0;
 }
 
 .now-copy {
@@ -854,6 +907,32 @@ main {
   opacity: 0.86;
 }
 
+.project-story {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.project-story-block {
+  padding-top: 0.8rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.project-story-label {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.project-story-copy {
+  margin-top: 0.4rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.8;
+}
+
 .project-tech {
   display: flex;
   flex-wrap: wrap;
@@ -960,6 +1039,24 @@ main {
   color: var(--text);
   font-size: 1.05rem;
   line-height: 1.7;
+}
+
+.stack-note-link {
+  display: inline-flex;
+  margin-top: 1rem;
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text);
+  text-decoration: none;
+  padding-bottom: 0.15rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.stack-note-link:hover {
+  color: var(--accent);
+  border-bottom-color: rgba(142, 240, 207, 0.45);
 }
 
 .stack-note-list {
@@ -1318,7 +1415,7 @@ main {
   }
 
   .hero-title {
-    max-width: 9ch;
+    max-width: 14ch;
   }
 
   .project-card {

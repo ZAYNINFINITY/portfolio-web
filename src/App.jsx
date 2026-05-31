@@ -15,6 +15,9 @@ import {
   CONTACT_PROMISES,
   EXPERIENCE_TIMELINE,
   HERO_METRICS,
+  HERO_HOOK,
+  HERO_PROOF,
+  HERO_SUBLINE,
   IDENTITY_CARDS,
   NAV_LINKS,
   PROFILE,
@@ -197,12 +200,11 @@ function Hero({ setActive }) {
           </m.p>
 
           <m.h1 variants={reveal} className="hero-title">
-            I build calm software
-            <span>with a clear point of view.</span>
+            {HERO_HOOK}
           </m.h1>
 
           <m.p variants={reveal} className="hero-body">
-            {PROFILE.tagline}
+            {HERO_SUBLINE}
           </m.p>
 
           <m.div variants={reveal} className="hero-actions">
@@ -226,6 +228,26 @@ function Hero({ setActive }) {
             <span className="hero-tag">{PROFILE.role}</span>
             <span className="hero-tag">{PROFILE.location}</span>
             <span className="hero-tag">{PROFILE.timezone}</span>
+          </m.div>
+
+          <m.div variants={reveal} className="hero-proof">
+            {HERO_PROOF.map((item) => (
+              <span key={item} className="hero-proof-item">
+                {item}
+              </span>
+            ))}
+          </m.div>
+
+          <m.div variants={reveal} className="hero-links">
+            <a href={PROFILE.githubUrl} target="_blank" rel="noopener noreferrer" className="hero-link">
+              GitHub ↗
+            </a>
+            <a href={PROFILE.linkedinUrl} target="_blank" rel="noopener noreferrer" className="hero-link">
+              LinkedIn ↗
+            </a>
+            <a href="/Zain_Ul_Abideen_CV.pdf" download className="hero-link">
+              Resume ↗
+            </a>
           </m.div>
 
           <m.div variants={reveal} className="metrics">
@@ -259,8 +281,22 @@ function Hero({ setActive }) {
           </div>
 
           <div className="now-card">
-            <p className="now-label">Now</p>
-            <p className="now-title">Turning coursework and real builds into a cleaner portfolio story.</p>
+            <p className="now-label">Right now</p>
+            <p className="now-title">Shipping a collaboration SaaS while refining the portfolio around proof, clarity, and personality.</p>
+            <div className="now-list">
+              <div className="now-row">
+                <span className="now-index">01</span>
+                <span>Current focus: real-time SaaS with auth, chat, and task flow.</span>
+              </div>
+              <div className="now-row">
+                <span className="now-index">02</span>
+                <span>Live work: three projects with deployed demos and code.</span>
+              </div>
+              <div className="now-row">
+                <span className="now-index">03</span>
+                <span>Positioning: calm interfaces that feel trustworthy on first view.</span>
+              </div>
+            </div>
             <p className="now-copy">
               A portfolio should say what you do, how you think, and why someone should trust you in under five seconds.
             </p>
@@ -299,13 +335,13 @@ function About() {
       <div className="wrap">
         <m.div variants={stagger()} initial="hidden" whileInView="show" viewport={viewport}>
           <m.p variants={reveal} className="section-label">
-            Identity layer
+            Identity
           </m.p>
           <m.h2 variants={reveal} className="section-title">
-            What makes this portfolio feel like me
+            The kind of builder I am
           </m.h2>
           <m.p variants={reveal} className="section-sub">
-            The goal is not to copy a reference site. It is to keep the confidence and add a stronger personality, clearer structure, and a more memorable first impression.
+            I like turning rough ideas into software that feels calm, useful, and credible instead of noisy or overdesigned.
           </m.p>
         </m.div>
 
@@ -318,9 +354,9 @@ function About() {
             transition={{ duration: 0.5 }}
           >
             <p className="identity-feature-label">My edge</p>
-            <p className="identity-feature-title">I like building things that feel quiet, confident, and useful.</p>
+            <p className="identity-feature-title">I build software that feels easy to trust and worth using again.</p>
             <p className="identity-feature-copy">
-              That means fewer visual tricks, more clarity, and enough detail to make the project feel real instead of decorative.
+              That means fewer visual tricks, more clarity, and enough detail to make the work feel real instead of decorative.
             </p>
           </m.div>
 
@@ -375,7 +411,7 @@ function Projects() {
             Projects with a point of view
           </m.h2>
           <m.p variants={reveal} className="section-sub">
-            Each build shows a different part of the story: realtime collaboration, e-commerce, simulation, and backend logic.
+            Each build shows the problem, the part I built, and the reason it matters.
           </m.p>
         </m.div>
 
@@ -406,8 +442,20 @@ function Projects() {
                   <span className="project-cat">{project.category}</span>
                 </div>
 
-                <p className="project-desc">{project.description}</p>
-                <p className="project-impact">{project.impact}</p>
+                <div className="project-story">
+                  <div className="project-story-block">
+                    <p className="project-story-label">Problem</p>
+                    <p className="project-story-copy">{project.description}</p>
+                  </div>
+                  <div className="project-story-block">
+                    <p className="project-story-label">Built</p>
+                    <p className="project-story-copy">{project.build}</p>
+                  </div>
+                  <div className="project-story-block">
+                    <p className="project-story-label">Why it matters</p>
+                    <p className="project-story-copy">{project.impact}</p>
+                  </div>
+                </div>
 
                 <div className="project-tech">
                   {project.tech.map((tech) => (
@@ -442,13 +490,13 @@ function Stack() {
       <div className="wrap">
         <m.div variants={stagger()} initial="hidden" whileInView="show" viewport={viewport}>
           <m.p variants={reveal} className="section-label">
-            Stack
+            Developer proof
           </m.p>
           <m.h2 variants={reveal} className="section-title">
-            Tools I reach for often
+            What I work with
           </m.h2>
           <m.p variants={reveal} className="section-sub">
-            A practical stack matters more than a huge one. These are the pieces that show up repeatedly in the way I build.
+            A practical stack matters more than a huge one. These are the tools and patterns that show up repeatedly in the way I build.
           </m.p>
         </m.div>
 
@@ -486,6 +534,9 @@ function Stack() {
             <p className="stack-note-copy">
               It lets me move from interface to API to deployment without changing the language of the project.
             </p>
+            <a href={PROFILE.githubUrl} target="_blank" rel="noopener noreferrer" className="stack-note-link">
+              View GitHub ↗
+            </a>
             <div className="stack-note-list">
               {WHAT_I_BRING.map((point, index) => (
                 <div key={point} className="stack-note-row">
@@ -639,7 +690,7 @@ function Contact() {
             Let&apos;s make your portfolio feel deliberate
           </m.h2>
           <m.p variants={reveal} className="section-sub">
-            If you want the next step to be a redesign, a stronger identity, or a cleaner layout strategy, I can help shape it.
+            If you want the next step to be a redesign, stronger identity, or cleaner layout strategy, I can help shape it.
           </m.p>
         </m.div>
 
