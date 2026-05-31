@@ -6,8 +6,6 @@
 
 Personal portfolio showcasing full-stack projects, developer tools, and technical work.
 
-![Portfolio Demo](https://via.placeholder.com/1000x500/0a0e27/00d4ff?text=Portfolio+Demo+GIF)
-
 </div>
 
 ---
@@ -42,14 +40,6 @@ Personal portfolio showcasing full-stack projects, developer tools, and technica
 **Database** • Firebase, PostgreSQL  
 **Authentication** • Firebase Auth, OAuth  
 **Deployment** • Vercel, Netlify  
-
----
-
-## 📸 Screenshots
-
-| Desktop View | Mobile View | Dashboard |
-|-------------|-----------|-----------|
-| ![Desktop](https://via.placeholder.com/300x200) | ![Mobile](https://via.placeholder.com/300x200) | ![Dashboard](https://via.placeholder.com/300x200) |
 
 ---
 
