@@ -228,13 +228,9 @@ function Hero({ setActive }) {
             <span className="hero-tag">{PROFILE.timezone}</span>
           </m.div>
 
-          <m.div variants={reveal} className="hero-proof">
-            {HERO_PROOF.map((item) => (
-              <span key={item} className="hero-proof-item">
-                {item}
-              </span>
-            ))}
-          </m.div>
+          <m.p variants={reveal} className="hero-proof-line">
+            {HERO_PROOF}
+          </m.p>
 
           <m.div variants={reveal} className="hero-links">
             <a href={PROFILE.githubUrl} target="_blank" rel="noopener noreferrer" className="hero-link">
@@ -295,9 +291,7 @@ function Hero({ setActive }) {
                 <span>Positioning: calm interfaces that feel trustworthy on first view.</span>
               </div>
             </div>
-            <p className="now-copy">
-              A portfolio should say what you do, how you think, and why someone should trust you in under five seconds.
-            </p>
+            <p className="now-copy">Building a real-time SaaS collaboration platform with auth, chat, and Kanban workflows.</p>
           </div>
         </m.div>
       </div>
@@ -377,7 +371,7 @@ function Projects() {
             Projects with a point of view
           </m.h2>
           <m.p variants={reveal} className="section-sub">
-            Each build shows the problem, the part I built, and the reason it matters.
+            The first project goes deeper. The rest stay short and sharp.
           </m.p>
         </m.div>
 
@@ -408,20 +402,21 @@ function Projects() {
                   <span className="project-cat">{project.category}</span>
                 </div>
 
-                <p className="project-hook">{project.description}</p>
-
-                <ul className="project-bullets">
-                  <li>{project.build}</li>
-                  <li>{project.impact}</li>
-                </ul>
-
-                <div className="project-tech">
-                  {project.tech.map((tech) => (
-                    <span key={tech} className="tech-tag">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
+                {index === 0 ? (
+                  <>
+                    <p className="project-hook">{project.description}</p>
+                    <ul className="project-bullets">
+                      <li>{project.build}</li>
+                      <li>{project.impact}</li>
+                    </ul>
+                    <p className="project-summary">{project.accent}</p>
+                  </>
+                ) : (
+                  <>
+                    <p className="project-summary">{project.description}</p>
+                    <p className="project-summary">{project.build}</p>
+                  </>
+                )}
 
                 <div className="project-links">
                   {project.liveUrl ? (
@@ -489,18 +484,10 @@ function Stack() {
             transition={{ duration: 0.55 }}
           >
             <p className="stack-note-label">Core tools</p>
-            <p className="stack-note-copy">These are the pieces I actually use again and again.</p>
+            <p className="stack-note-copy">A focused stack keeps the signal strong.</p>
             <a href={PROFILE.githubUrl} target="_blank" rel="noopener noreferrer" className="stack-note-link">
               View GitHub ↗
             </a>
-            <div className="stack-note-list">
-              {WHAT_I_BRING.map((point, index) => (
-                <div key={point} className="stack-note-row">
-                  <span className="stack-note-index">0{index + 1}</span>
-                  <span>{point}</span>
-                </div>
-              ))}
-            </div>
           </m.aside>
         </div>
       </div>
@@ -539,10 +526,10 @@ function Experience() {
             <m.div variants={reveal} className="bring-box">
               <p className="bring-box-label">What I bring</p>
               <div className="bring-list">
-                {WHAT_I_BRING.map((point, index) => (
-                  <div key={point} className="bring-row">
-                    <span className="bring-index">0{index + 1}</span>
-                    <span>{point}</span>
+              {WHAT_I_BRING.slice(0, 2).map((point, index) => (
+                <div key={point} className="bring-row">
+                  <span className="bring-index">0{index + 1}</span>
+                  <span>{point}</span>
                   </div>
                 ))}
               </div>

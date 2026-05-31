@@ -26,36 +26,21 @@ export const HERO_METRICS = [
   { value: "4", label: "stack layers I move between comfortably" },
 ];
 
-export const HERO_HOOK = "Full-stack developer building fast, clean web apps for startups and students.";
+export const HERO_HOOK = "Full-stack developer building real-time SaaS apps with auth, chat, and workflows.";
 
-export const HERO_SUBLINE =
-  "I build real-time SaaS and MERN apps with auth, chat, and workflows.";
+export const HERO_SUBLINE = "Focused on shipped interfaces, clean auth flows, and smooth realtime UX.";
 
-export const HERO_PROOF = [
-  "Realtime + auth + workflows",
-  "Deployed apps with live links",
-  "GitHub-backed proof of work",
-];
+export const HERO_PROOF = "3+ deployed SaaS apps • realtime systems • authentication-heavy MERN projects";
 
 export const TECH_STRIP_ITEMS = [
-  "React",
-  "JavaScript",
-  "Node.js",
-  "Python",
-  "HTML",
-  "CSS",
-  "Electron",
-  "MongoDB",
-  "MySQL",
-  "Tailwind CSS",
-  "Framer Motion",
-  "Vercel",
-  "Netlify",
-  "Railway",
-  "Git",
-  "Vite",
-  "Express",
-  "REST APIs",
+  "Realtime systems",
+  "Authentication flows",
+  "Live collaboration",
+  "Scalable APIs",
+  "Clean UX",
+  "Production-ready",
+  "Fast deployment",
+  "Workflow tools",
   "Product thinking",
 ];
 
@@ -65,7 +50,7 @@ export const IDENTITY_CARDS = [
     description: "Live projects with working demos and source code.",
   },
   {
-    title: "MERN + realtime",
+    title: "Realtime systems",
     description: "Socket.io, auth, and workflow systems across projects.",
   },
   {
@@ -79,13 +64,9 @@ export const PROJECTS = [
     id: "collaborative-workspace",
     title: "Collaborative Workspace Platform",
     category: "Real-time SaaS platform",
-    description:
-      "Problem: teams need one place to chat, plan, and stay aligned without jumping between tools.",
-    build:
-      "Built realtime chat, collaborative docs, and a Kanban workflow with OAuth, MongoDB, and Socket.io.",
-    impact:
-      "A SaaS project that shows product thinking, realtime logic, and multi-user behavior.",
-    tech: ["Node.js", "React", "MongoDB", "Socket.io", "OAuth 2.0", "Passport.js"],
+    description: "A real-time workspace for chat, docs, and Kanban workflow in one place.",
+    build: "Built realtime chat, collaborative docs, and a Kanban workflow with authentication.",
+    impact: "Best example of my product thinking and multi-user logic.",
     codeUrl: "https://github.com/ZAYNINFINITY",
     liveUrl: "https://collaborative-workspace-rosy.vercel.app",
     accent: "Current focus - a real-time SaaS story with multi-user interaction.",
@@ -94,12 +75,9 @@ export const PROJECTS = [
     id: "zse-website",
     title: "ZSE Store",
     category: "E-commerce platform",
-    description:
-      "Problem: the store needed a clean buying flow that felt trustworthy and fast on the first visit.",
-    build:
-      "Built product browsing, auth, checkout, and deployment with Next.js, Express, MongoDB, and Stripe.",
-    impact: "A production-style store that shows conversion flow and backend coordination.",
-    tech: ["Next.js", "Express", "MongoDB", "Stripe", "JWT"],
+    description: "A store project with product browsing, auth, checkout, and deployment.",
+    build: "Built a production-style buying flow with auth and checkout.",
+    impact: "Shows conversion flow and backend coordination.",
     codeUrl: "https://github.com/ZAYNINFINITY/zse-website",
     liveUrl: "https://streamer-dash.netlify.app/",
     accent: "A storefront that balances conversion flow and technical depth.",
@@ -108,12 +86,9 @@ export const PROJECTS = [
     id: "queue-simulator",
     title: "Queue Simulator",
     category: "Cross-platform simulation app",
-    description:
-      "Problem: students needed a clearer way to visualize queue behavior instead of only reading about it.",
-    build:
-      "Built a simulation app with Flask, SQLite, JavaScript, and Capacitor so it could travel across platforms.",
-    impact: "A systems-style project that shows logic, modeling, and portability.",
-    tech: ["Python", "Flask", "SQLite", "JavaScript", "Capacitor"],
+    description: "A queue simulation app for visualizing system behavior across platforms.",
+    build: "Built a simulation app with backend logic and portable packaging.",
+    impact: "Shows logic, modeling, and portability.",
     codeUrl: "https://github.com/ZAYNINFINITY/DSA-PROJ-V2",
     liveUrl: "https://scrollstreak.netlify.app",
     accent: "A systems-style app that mixes logic, modeling, and portability.",
@@ -122,12 +97,9 @@ export const PROJECTS = [
     id: "car-auction",
     title: "Car Auction Management System",
     category: "Data-driven web app",
-    description:
-      "Problem: auction flows need structured listings, bids, and transactions instead of scattered records.",
-    build:
-      "Built listings, bidding, transactions, and a MySQL-backed backend with PHP, SQL, and JavaScript.",
-    impact: "An older project, but still useful proof of backend structure and data handling.",
-    tech: ["PHP", "SQL", "Python", "HTML", "CSS", "JavaScript"],
+    description: "An auction management system with listings, bids, and transactions.",
+    build: "Built structured listings, bidding, and transaction flows.",
+    impact: "Older project, still good proof of backend structure.",
     codeUrl: "https://github.com/ZAYNINFINITY/CARAUCTION-MANAGEMENT-SYSTEM",
     liveUrl: null,
     accent: "An older but useful proof of backend structure and persistence.",
@@ -138,17 +110,17 @@ export const CAPABILITY_GROUPS = [
   {
     title: "Frontend",
     description: "Interfaces and interaction.",
-    items: ["React", "JavaScript", "Tailwind CSS", "Framer Motion"],
+    items: ["React", "Tailwind CSS", "Framer Motion"],
   },
   {
     title: "Backend",
     description: "APIs, realtime, and auth.",
-    items: ["Node.js", "Express.js", "Flask", "Socket.io"],
+    items: ["Node.js", "Express.js", "Socket.io"],
   },
   {
-    title: "Tools",
-    description: "Ship and debug.",
-    items: ["Git", "GitHub", "MongoDB", "MySQL"],
+    title: "Data & ship",
+    description: "Storage, auth, and deployment.",
+    items: ["MongoDB", "MySQL", "Git", "Vercel"],
   },
 ];
 
@@ -174,5 +146,4 @@ export const WHAT_I_BRING = [
   "Full-stack development across frontend, backend, and databases.",
   "Real-time features and authentication flows.",
   "Independent debugging across the stack.",
-  "A learning mindset backed by shipped projects.",
 ];
