@@ -9,28 +9,22 @@ export const PROFILE = {
   timezone: "GMT+5",
   role: "Full-stack developer and CS student",
   tagline:
-    "Computer Science student building full-stack and cross-platform products from idea to working implementation across frontend, backend, databases, and deployment.",
+    "Computer Science student building full-stack products that feel calm, clear, and actually useful across frontend, backend, databases, and deployment.",
 };
 
 export const NAV_LINKS = [
   { label: "Home", href: "#home" },
+  { label: "About", href: "#about" },
   { label: "Projects", href: "#projects" },
-  { label: "Skills", href: "#capabilities" },
-  { label: "Experience", href: "#journey" },
+  { label: "Stack", href: "#stack" },
+  { label: "Experience", href: "#experience" },
   { label: "Contact", href: "#contact" },
 ];
 
 export const HERO_METRICS = [
-  { value: "20+", label: "API endpoints built" },
-  { value: "15+", label: "React components shipped" },
-  { value: "75%+", label: "test coverage on current SaaS app" },
-];
-
-export const HIGHLIGHTS = [
-  "MERN stack apps",
-  "OAuth and authentication",
-  "Real-time features",
-  "Cross-platform development",
+  { value: "4+", label: "featured builds on this site" },
+  { value: "3", label: "lanes I work across: UI, API, deployment" },
+  { value: "1", label: "goal: make the next step obvious" },
 ];
 
 export const TECH_STRIP_ITEMS = [
@@ -52,6 +46,31 @@ export const TECH_STRIP_ITEMS = [
   "Vite",
   "Express",
   "REST APIs",
+  "Product thinking",
+];
+
+export const IDENTITY_CARDS = [
+  {
+    title: "Quiet systems",
+    description:
+      "I like interfaces that feel easy to read, easy to trust, and easy to use on the first try.",
+  },
+  {
+    title: "Shipping instinct",
+    description:
+      "I care about getting real features online, not just making pretty mockups that never leave the folder.",
+  },
+  {
+    title: "Product curiosity",
+    description:
+      "I enjoy connecting design, backend logic, and deployment into one flow that feels coherent.",
+  },
+];
+
+export const WORKING_PILLARS = [
+  "Translate messy ideas into a clean product shape.",
+  "Build with enough detail that the work feels credible.",
+  "Keep the interface calm so the content can do the talking.",
 ];
 
 export const PROJECTS = [
@@ -65,7 +84,8 @@ export const PROJECTS = [
       "Built with React, Node.js, MongoDB, Socket.io, and OAuth authentication.",
     tech: ["Node.js", "React", "MongoDB", "Socket.io", "OAuth 2.0", "Passport.js"],
     codeUrl: "https://github.com/ZAYNINFINITY",
-    liveUrl: null,
+    liveUrl: "https://collaborative-workspace-rosy.vercel.app",
+    accent: "My current focus - a real-time SaaS story with multi-user interaction.",
   },
   {
     id: "zse-website",
@@ -76,7 +96,8 @@ export const PROJECTS = [
     impact: "Built with Next.js, Express, MongoDB, Stripe, and JWT authentication.",
     tech: ["Next.js", "Express", "MongoDB", "Stripe", "JWT"],
     codeUrl: "https://github.com/ZAYNINFINITY/zse-website",
-    liveUrl: "https://zsestore.netlify.app",
+    liveUrl: "https://streamer-dash.netlify.app/",
+    accent: "A storefront that balances conversion flow and technical depth.",
   },
   {
     id: "queue-simulator",
@@ -87,7 +108,8 @@ export const PROJECTS = [
     impact: "Built across web and mobile-focused environments with Python and JavaScript.",
     tech: ["Python", "Flask", "SQLite", "JavaScript", "Capacitor"],
     codeUrl: "https://github.com/ZAYNINFINITY/DSA-PROJ-V2",
-    liveUrl: null,
+    liveUrl: "https://scrollstreak.netlify.app",
+    accent: "A systems-style app that mixes logic, modeling, and portability.",
   },
   {
     id: "car-auction",
@@ -99,28 +121,29 @@ export const PROJECTS = [
     tech: ["PHP", "SQL", "Python", "HTML", "CSS", "JavaScript"],
     codeUrl: "https://github.com/ZAYNINFINITY/CARAUCTION-MANAGEMENT-SYSTEM",
     liveUrl: null,
+    accent: "An older but useful proof of backend structure and persistence.",
   },
 ];
 
 export const CAPABILITY_GROUPS = [
   {
     title: "Frontend",
-    description: "Building responsive interfaces with React and modern UI tooling.",
+    description: "Responsive interfaces, motion, and component structure.",
     items: ["React", "JavaScript", "Tailwind CSS", "Responsive Design", "Component architecture"],
   },
   {
     title: "Backend",
-    description: "Working across APIs, business logic, real-time features, and server-side development.",
+    description: "APIs, business logic, real-time features, and server-side development.",
     items: ["Node.js", "Express.js", "Flask", "REST APIs", "Socket.io", "API design"],
   },
   {
     title: "Tools",
-    description: "Using practical tools to build, test, package, and manage projects.",
+    description: "Practical tooling to build, test, package, and ship projects.",
     items: ["Git", "GitHub", "Capacitor", "XAMPP", "phpMyAdmin", "Debugging"],
   },
   {
     title: "Databases and Auth",
-    description: "Working with databases, authentication, and session-based application flows.",
+    description: "Database modeling, authentication, and session-based app flow.",
     items: ["OAuth 2.0", "Passport.js", "Session Management", "MongoDB", "MySQL"],
   },
 ];
@@ -153,12 +176,8 @@ export const WHAT_I_BRING = [
   "A strong learning mindset backed by shipped projects.",
 ];
 
-export const NPM_PACKAGE = {
-  name: "jsonai-validator",
-  version: "1.0.3",
-  npmUrl: "https://www.npmjs.com/package/jsonai-validator",
-  githubUrl: "https://github.com/crocmons/jsonai-validator",
-  installCommand: "npm i jsonai-validator",
-  description:
-    "Validates structured AI responses and helps generate safe JSON output using schema-driven rules.",
-};
+export const CONTACT_PROMISES = [
+  "I reply thoughtfully and keep things practical.",
+  "I like projects with a real user or a real problem.",
+  "I can move from concept to working build without hand-holding.",
+];
