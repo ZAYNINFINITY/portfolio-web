@@ -1,27 +1,49 @@
-# Portfolio Web
+# Portfolio Website
 
-A modern, responsive portfolio website showcasing projects and skills with a clean UI and smooth user experience.
+**Live Demo:** [https://portfolio-zeta-snowy-61.vercel.app](https://portfolio-zeta-snowy-61.vercel.app)
 
-## ✨ Features
+Personal portfolio website showcasing full-stack projects, developer tools, startup experiments, and technical work.
 
-- **Hero Section** - Engaging introduction with call-to-action
-- **Projects Showcase** - Display of professional work with project details
-- **Skills & Technologies** - Comprehensive tech stack overview
-- **Responsive Design** - Optimized for all devices and screen sizes
-- **Contact Integration** - Functional contact form with email notifications
-- **Modern UI** - Clean, professional aesthetic with smooth animations
+---
+
+## 📸 Preview
+
+### Homepage
+[Your homepage screenshot here]
+
+### Projects Showcase
+[Your projects page screenshot here]
+
+---
+
+## 🎯 Featured Projects
+
+### **ScrollStreak**
+Chrome extension that tracks Instagram Reel usage and turns scrolling into a competitive experience with friends. Built with JavaScript, Firebase, and real-time Socket.io features.
+
+### **AI POS System**
+Full-stack point of sale platform with real-time inventory management, sales analytics, and payment processing. Features Python backend, modern UI, and cloud database integration.
+
+### **Startup Experiments**
+Collection of product-focused projects exploring social, productivity, and consumer software ideas. Rapid prototyping and user validation work.
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React + Vite
-- **Styling:** Tailwind CSS
+- **Frontend:** React, Vite, Tailwind CSS
+- **Backend:** Python, Express.js
+- **Database:** Firebase Realtime Database
+- **Authentication:** Firebase Auth
 - **Email Service:** EmailJS
-- **Build Tool:** Vite
+- **Deployment:** Vercel
 
-## 🚀 Getting Started
+---
+
+## 🚀 Local Setup
 
 ### Prerequisites
-- Node.js (v14 or higher)
+- Node.js (v16+)
 - npm or yarn
 
 ### Installation
@@ -37,33 +59,47 @@ cd portfolio-web
 npm install
 ```
 
-3. **Configure EmailJS (for contact form):**
-   - Sign up at [EmailJS](https://dashboard.emailjs.com/)
-   - Create an Email Service and Template
-   - Copy your credentials
-   - Create `.env` file from `.env.example`:
-   ```bash
-   cp .env.example .env
-   ```
-   - Fill in your EmailJS credentials:
-   ```
-   VITE_APP_EMAILJS_SERVICE_ID=your_service_id
-   VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
-   VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
-   ```
+3. **Set up environment variables:**
+```bash
+cp .env.example .env
+```
 
-4. **Start the development server:**
+4. **Fill in your credentials:**
+```env
+VITE_APP_EMAILJS_SERVICE_ID=your_service_id
+VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+> **Note:** Get these from [EmailJS Dashboard](https://dashboard.emailjs.com/). See `.env.example` for details.
+
+5. **Start the development server:**
 ```bash
 npm run dev
 ```
 
-The site will be available at `http://localhost:5173`
+---
 
-## 🔧 Configuration
+## 🔨 Build
 
-### Environment Variables
+### Development
+```bash
+npm run dev
+```
 
-Create a `.env` file with the following variables:
+### Production Build
+```bash
+npm run build
+```
+
+### Preview Production Build
+```bash
+npm run preview
+```
+
+---
+
+## 📝 Environment Variables
 
 | Variable | Description |
 |----------|-------------|
@@ -71,37 +107,14 @@ Create a `.env` file with the following variables:
 | `VITE_APP_EMAILJS_TEMPLATE_ID` | EmailJS template ID |
 | `VITE_APP_EMAILJS_PUBLIC_KEY` | EmailJS public key |
 
-> **⚠️ Important:** Never commit your `.env` file. It's already listed in `.gitignore`.
+> ⚠️ **Important:** Never commit your `.env` file. It's already in `.gitignore`.
 
-## 📦 Build
-
-To create a production build:
-
-```bash
-npm run build
-```
-
-To preview the production build:
-
-```bash
-npm run preview
-```
-
-## 🐛 Troubleshooting
-
-**Contact form showing errors?**
-- Verify EmailJS credentials are correctly set in `.env`
-- Ensure the environment file is loaded before the app starts
-- Check browser console for detailed error messages
-
-**Styling issues?**
-- Clear node_modules and reinstall: `rm -rf node_modules && npm install`
-- Rebuild Tailwind CSS cache: `npm run build`
+---
 
 ## 📄 License
 
-This project is open source and available under the MIT License.
+MIT License — see [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+---
 
-Contributions are welcome! Feel free to submit issues or pull requests to improve the project.
+**Made by Zayn Ali** • [GitHub](https://github.com/ZAYNINFINITY)
