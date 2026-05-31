@@ -21,11 +21,15 @@ Personal portfolio website showcasing full-stack projects, developer tools, star
 ### **ScrollStreak**
 Chrome extension that tracks Instagram Reel usage and turns scrolling into a competitive experience with friends. Built with JavaScript, Firebase, and real-time Socket.io features.
 
-### **AI POS System**
+**Live:** [https://scrollstreak.netlify.app](https://scrollstreak.netlify.app)
+
+### **POS-it**
 Full-stack point of sale platform with real-time inventory management, sales analytics, and payment processing. Features Python backend, modern UI, and cloud database integration.
 
-### **Startup Experiments**
-Collection of product-focused projects exploring social, productivity, and consumer software ideas. Rapid prototyping and user validation work.
+### **Collab**
+SaaS collaborative workspace platform designed for real-time teamwork and productivity. Built with modern full-stack architecture for seamless user experience.
+
+**Live:** [https://collaborative-workspace-rosy.vercel.app](https://collaborative-workspace-rosy.vercel.app)
 
 ---
 
@@ -36,17 +40,11 @@ Collection of product-focused projects exploring social, productivity, and consu
 - **Database:** Firebase Realtime Database
 - **Authentication:** Firebase Auth
 - **Email Service:** EmailJS
-- **Deployment:** Vercel
+- **Deployment:** Vercel, Netlify
 
 ---
 
-## 🚀 Local Setup
-
-### Prerequisites
-- Node.js (v16+)
-- npm or yarn
-
-### Installation
+## 🚀 Quick Start
 
 1. **Clone the repository:**
 ```bash
@@ -59,21 +57,11 @@ cd portfolio-web
 npm install
 ```
 
-3. **Set up environment variables:**
-```bash
-cp .env.example .env
-```
+3. **Configure EmailJS** (optional for contact form):
+   - Get credentials from [EmailJS Dashboard](https://dashboard.emailjs.com/)
+   - Create `.env` from `.env.example` and add your keys
 
-4. **Fill in your credentials:**
-```env
-VITE_APP_EMAILJS_SERVICE_ID=your_service_id
-VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
-VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
-```
-
-> **Note:** Get these from [EmailJS Dashboard](https://dashboard.emailjs.com/). See `.env.example` for details.
-
-5. **Start the development server:**
+4. **Start development:**
 ```bash
 npm run dev
 ```
@@ -96,18 +84,6 @@ npm run build
 ```bash
 npm run preview
 ```
-
----
-
-## 📝 Environment Variables
-
-| Variable | Description |
-|----------|-------------|
-| `VITE_APP_EMAILJS_SERVICE_ID` | EmailJS service ID |
-| `VITE_APP_EMAILJS_TEMPLATE_ID` | EmailJS template ID |
-| `VITE_APP_EMAILJS_PUBLIC_KEY` | EmailJS public key |
-
-> ⚠️ **Important:** Never commit your `.env` file. It's already in `.gitignore`.
 
 ---
 
