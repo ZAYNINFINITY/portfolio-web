@@ -1,87 +1,88 @@
-# Portfolio Website
+# 🚀 Portfolio Website
 
-**Live Demo:** [https://portfolio-zeta-snowy-61.vercel.app](https://portfolio-zeta-snowy-61.vercel.app)
+<div align="center">
 
-Personal portfolio website showcasing full-stack projects, developer tools, startup experiments, and technical work.
+**Live Demo:** [![Vercel](https://img.shields.io/badge/Live-Vercel-000?style=flat-square&logo=vercel)](https://portfolio-zeta-snowy-61.vercel.app)
 
----
+Personal portfolio showcasing full-stack projects, developer tools, and technical work.
 
-## 📸 Preview
+![Portfolio Demo](https://via.placeholder.com/1000x500/0a0e27/00d4ff?text=Portfolio+Demo+GIF)
 
-### Homepage
-[Your homepage screenshot here]
-
-### Projects Showcase
-[Your projects page screenshot here]
+</div>
 
 ---
 
 ## 🎯 Featured Projects
 
-### **ScrollStreak**
-Chrome extension that tracks Instagram Reel usage and turns scrolling into a competitive experience with friends. Built with JavaScript, Firebase, and real-time Socket.io features.
-
-**Live:** [https://scrollstreak.netlify.app](https://scrollstreak.netlify.app)
-
-### **POS-it**
-Full-stack point of sale platform with real-time inventory management, sales analytics, and payment processing. Features Python backend, modern UI, and cloud database integration.
-
-### **Collab**
-SaaS collaborative workspace platform designed for real-time teamwork and productivity. Built with modern full-stack architecture for seamless user experience.
-
-**Live:** [https://collaborative-workspace-rosy.vercel.app](https://collaborative-workspace-rosy.vercel.app)
+| Project | Description | Tech Stack | Link |
+|---------|-------------|-----------|------|
+| **ScrollStreak** 🔥 | Chrome extension tracking Instagram Reel usage with real-time competitive challenges | JavaScript, Firebase, Socket.io | [View →](https://scrollstreak.netlify.app) |
+| **POS-it** 💳 | Full-stack point of sale platform with inventory management and analytics | Python, React, PostgreSQL | [View →](#) |
+| **Collab** 👥 | Real-time collaborative workspace SaaS for seamless team productivity | React, Node.js, Firebase | [View →](https://collaborative-workspace-rosy.vercel.app) |
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React, Vite, Tailwind CSS
-- **Backend:** Python, Express.js
-- **Database:** Firebase Realtime Database
-- **Authentication:** Firebase Auth
-- **Email Service:** EmailJS
-- **Deployment:** Vercel, Netlify
+<div align="center">
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Express.js](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+
+</div>
+
+**Frontend** • React, Vite, Tailwind CSS  
+**Backend** • Python, Express.js, Node.js  
+**Database** • Firebase, PostgreSQL  
+**Authentication** • Firebase Auth, OAuth  
+**Deployment** • Vercel, Netlify  
+
+---
+
+## 📸 Screenshots
+
+| Desktop View | Mobile View | Dashboard |
+|-------------|-----------|-----------|
+| ![Desktop](https://via.placeholder.com/300x200) | ![Mobile](https://via.placeholder.com/300x200) | ![Dashboard](https://via.placeholder.com/300x200) |
 
 ---
 
 ## 🚀 Quick Start
 
-1. **Clone the repository:**
 ```bash
+# Clone repository
 git clone https://github.com/ZAYNINFINITY/portfolio-web.git
 cd portfolio-web
-```
 
-2. **Install dependencies:**
-```bash
+# Install dependencies
 npm install
-```
 
-3. **Configure EmailJS** (optional for contact form):
-   - Get credentials from [EmailJS Dashboard](https://dashboard.emailjs.com/)
-   - Create `.env` from `.env.example` and add your keys
+# Configure EmailJS (optional)
+cp .env.example .env
+# Add your EmailJS credentials
 
-4. **Start development:**
-```bash
+# Start development server
 npm run dev
 ```
 
 ---
 
-## 🔨 Build
+## 🔨 Build & Deploy
 
-### Development
 ```bash
+# Development
 npm run dev
-```
 
-### Production Build
-```bash
+# Production build
 npm run build
-```
 
-### Preview Production Build
-```bash
+# Preview production build
 npm run preview
 ```
 
@@ -89,8 +90,18 @@ npm run preview
 
 ## 📄 License
 
-MIT License — see [LICENSE](LICENSE) file for details.
+<div align="center">
+
+[![MIT License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
+
+MIT License — see [LICENSE](LICENSE) for details.
+
+</div>
 
 ---
 
-**Made by Zayn Ali** • [GitHub](https://github.com/ZAYNINFINITY)
+<div align="center">
+
+**Made by ZAYN** • [![GitHub](https://img.shields.io/badge/GitHub-ZAYNINFINITY-black?style=social&logo=github)](https://github.com/ZAYNINFINITY)
+
+</div>
