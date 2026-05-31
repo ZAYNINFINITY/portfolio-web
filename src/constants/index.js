@@ -8,8 +8,7 @@ export const PROFILE = {
   location: "Islamabad, Pakistan",
   timezone: "GMT+5",
   role: "Full-stack developer and CS student",
-  tagline:
-    "I build fast, clean web apps that solve real problems across UI, APIs, databases, and deployment.",
+  tagline: "I build fast, clean web apps that solve real problems.",
 };
 
 export const NAV_LINKS = [
@@ -30,12 +29,12 @@ export const HERO_METRICS = [
 export const HERO_HOOK = "Full-stack developer building fast, clean web apps for startups and students.";
 
 export const HERO_SUBLINE =
-  "I like shipping products that are easy to understand, easy to trust, and strong enough to feel real when someone opens them for the first time.";
+  "I build real-time SaaS and MERN apps with auth, chat, and workflows.";
 
 export const HERO_PROOF = [
-  "Live products over concept screenshots",
-  "GitHub-first proof of work",
-  "Design that supports the product story",
+  "Realtime + auth + workflows",
+  "Deployed apps with live links",
+  "GitHub-backed proof of work",
 ];
 
 export const TECH_STRIP_ITEMS = [
@@ -62,26 +61,17 @@ export const TECH_STRIP_ITEMS = [
 
 export const IDENTITY_CARDS = [
   {
-    title: "Built to ship",
-    description:
-      "I care about getting things into the hands of real users, not leaving them as ideas or half-finished demos.",
+    title: "3 deployed apps",
+    description: "Live projects with working demos and source code.",
   },
   {
-    title: "Clear over flashy",
-    description:
-      "I like interfaces that feel easy to read, easy to trust, and easy to use on the first try.",
+    title: "MERN + realtime",
+    description: "Socket.io, auth, and workflow systems across projects.",
   },
   {
-    title: "Product minded",
-    description:
-      "I enjoy connecting design, backend logic, and deployment into one flow that feels coherent.",
+    title: "Current SaaS focus",
+    description: "Actively building a collaboration platform with OAuth.",
   },
-];
-
-export const WORKING_PILLARS = [
-  "Turn vague ideas into a product story people can understand quickly.",
-  "Build enough depth that the project feels credible on inspection.",
-  "Keep the interface calm so the work itself can do the talking.",
 ];
 
 export const PROJECTS = [
@@ -147,23 +137,18 @@ export const PROJECTS = [
 export const CAPABILITY_GROUPS = [
   {
     title: "Frontend",
-    description: "Responsive interfaces, motion, and component structure.",
-    items: ["React", "JavaScript", "Tailwind CSS", "Responsive Design", "Component architecture"],
+    description: "Interfaces and interaction.",
+    items: ["React", "JavaScript", "Tailwind CSS", "Framer Motion"],
   },
   {
     title: "Backend",
-    description: "APIs, business logic, real-time features, and server-side development.",
-    items: ["Node.js", "Express.js", "Flask", "REST APIs", "Socket.io", "API design"],
+    description: "APIs, realtime, and auth.",
+    items: ["Node.js", "Express.js", "Flask", "Socket.io"],
   },
   {
     title: "Tools",
-    description: "Practical tooling to build, test, package, and ship projects.",
-    items: ["Git", "GitHub", "Capacitor", "XAMPP", "phpMyAdmin", "Debugging"],
-  },
-  {
-    title: "Databases and Auth",
-    description: "Database modeling, authentication, and session-based app flow.",
-    items: ["OAuth 2.0", "Passport.js", "Session Management", "MongoDB", "MySQL"],
+    description: "Ship and debug.",
+    items: ["Git", "GitHub", "MongoDB", "MySQL"],
   },
 ];
 
@@ -171,32 +156,23 @@ export const EXPERIENCE_TIMELINE = [
   {
     label: "2024 - Present",
     title: "BS Computer Science at PAF-IAST",
-    description:
-      "Studying Computer Science while building projects that apply classroom concepts like OOP, data structures, API design, and real-time systems in practice.",
+    description: "Studying CS while applying OOP, data structures, APIs, and realtime systems in projects.",
   },
   {
     label: "July 2025 - September 2025",
     title: "Web Developer and Venture Intern at TEKNEFY",
-    description:
-      "Worked within a cross-functional team on web development tasks, feature implementation, debugging sessions, and code reviews using more professional development practices.",
+    description: "Worked on web features, debugging, and code reviews in a cross-functional team.",
   },
   {
     label: "Current focus",
     title: "Building a real-time collaboration SaaS product",
-    description:
-      "Currently developing a MERN collaboration platform with OAuth, live messaging, Kanban workflows, and modern multi-user product behavior.",
+    description: "Building a MERN collaboration platform with OAuth, chat, and Kanban workflows.",
   },
 ];
 
 export const WHAT_I_BRING = [
   "Full-stack development across frontend, backend, and databases.",
-  "Hands-on work with real-time features and authentication flows.",
-  "Comfortable building independently and debugging across the stack.",
-  "A strong learning mindset backed by shipped projects.",
-];
-
-export const CONTACT_PROMISES = [
-  "I reply thoughtfully and keep things practical.",
-  "I like projects with a real user or a real problem.",
-  "I can move from concept to working build without hand-holding.",
+  "Real-time features and authentication flows.",
+  "Independent debugging across the stack.",
+  "A learning mindset backed by shipped projects.",
 ];

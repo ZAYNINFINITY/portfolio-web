@@ -665,19 +665,16 @@ main {
 
 .identity-grid {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-columns: 1fr;
   gap: 1rem;
   margin-top: 3rem;
 }
 
-.identity-feature,
 .identity-card,
-.identity-pillars,
 .skill-cell,
 .stack-note,
 .timeline-item,
 .bring-box,
-.promise-box,
 .contact-aside,
 .contact-box {
   border: 1px solid var(--line);
@@ -686,28 +683,9 @@ main {
   box-shadow: var(--shadow);
 }
 
-.identity-feature {
-  grid-row: span 2;
-  padding: 1.6rem;
-}
-
-.identity-feature-title {
-  margin-top: 1rem;
-  font-family: var(--display);
-  font-size: clamp(1.9rem, 3vw, 3rem);
-  line-height: 1.05;
-  letter-spacing: -0.04em;
-}
-
-.identity-feature-copy {
-  margin-top: 0.9rem;
-  color: var(--muted);
-  font-size: 0.94rem;
-  line-height: 1.85;
-}
-
 .identity-cards {
   display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
 }
 
@@ -728,24 +706,8 @@ main {
   line-height: 1.8;
 }
 
-.identity-pillars {
-  grid-column: 1 / -1;
-  margin-top: 0.25rem;
-  padding: 1.2rem 1.3rem 1.3rem;
-}
-
-.pillar-list {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.8rem;
-  margin-top: 1rem;
-}
-
-.pillar-row,
 .stack-note-row,
-.bring-row,
-.promise-row,
-.contact-promise {
+.bring-row {
   display: flex;
   align-items: flex-start;
   gap: 0.8rem;
@@ -753,14 +715,6 @@ main {
   line-height: 1.8;
 }
 
-.pillar-row {
-  padding: 1rem;
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.pillar-index,
 .stack-note-index,
 .bring-index {
   font-family: var(--mono);
@@ -933,6 +887,25 @@ main {
   line-height: 1.8;
 }
 
+.project-hook {
+  margin-top: 0.9rem;
+  color: var(--text);
+  font-size: 0.96rem;
+  line-height: 1.8;
+}
+
+.project-bullets {
+  margin-top: 0.8rem;
+  padding-left: 1.1rem;
+  color: var(--muted);
+  display: grid;
+  gap: 0.45rem;
+}
+
+.project-bullets li {
+  line-height: 1.75;
+}
+
 .project-tech {
   display: flex;
   flex-wrap: wrap;
@@ -1037,7 +1010,7 @@ main {
 .stack-note-copy {
   margin-top: 0.9rem;
   color: var(--text);
-  font-size: 1.05rem;
+  font-size: 0.98rem;
   line-height: 1.7;
 }
 
@@ -1376,6 +1349,10 @@ main {
   .skills-layout,
   .experience-layout,
   .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .identity-cards {
     grid-template-columns: 1fr;
   }
 

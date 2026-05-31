@@ -12,7 +12,6 @@ import {
 import {
   AVAILABLE_FOR_WORK,
   CAPABILITY_GROUPS,
-  CONTACT_PROMISES,
   EXPERIENCE_TIMELINE,
   HERO_METRICS,
   HERO_HOOK,
@@ -24,7 +23,6 @@ import {
   PROJECTS,
   TECH_STRIP_ITEMS,
   WHAT_I_BRING,
-  WORKING_PILLARS,
 } from "./constants/index";
 
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -338,28 +336,14 @@ function About() {
             Identity
           </m.p>
           <m.h2 variants={reveal} className="section-title">
-            The kind of builder I am
+            Proof, not philosophy
           </m.h2>
           <m.p variants={reveal} className="section-sub">
-            I like turning rough ideas into software that feels calm, useful, and credible instead of noisy or overdesigned.
+            Three short signals that show what I actually build.
           </m.p>
         </m.div>
 
         <div className="identity-grid">
-          <m.div
-            className="identity-feature"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={viewport}
-            transition={{ duration: 0.5 }}
-          >
-            <p className="identity-feature-label">My edge</p>
-            <p className="identity-feature-title">I build software that feels easy to trust and worth using again.</p>
-            <p className="identity-feature-copy">
-              That means fewer visual tricks, more clarity, and enough detail to make the work feel real instead of decorative.
-            </p>
-          </m.div>
-
           <div className="identity-cards">
             {IDENTITY_CARDS.map((card) => (
               <m.article
@@ -375,24 +359,6 @@ function About() {
               </m.article>
             ))}
           </div>
-
-          <m.div
-            className="identity-pillars"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={viewport}
-            transition={{ duration: 0.5 }}
-          >
-            <p className="identity-pillars-label">How I work</p>
-            <div className="pillar-list">
-              {WORKING_PILLARS.map((pillar, index) => (
-                <div key={pillar} className="pillar-row">
-                  <span className="pillar-index">0{index + 1}</span>
-                  <span>{pillar}</span>
-                </div>
-              ))}
-            </div>
-          </m.div>
         </div>
       </div>
     </section>
@@ -442,20 +408,12 @@ function Projects() {
                   <span className="project-cat">{project.category}</span>
                 </div>
 
-                <div className="project-story">
-                  <div className="project-story-block">
-                    <p className="project-story-label">Problem</p>
-                    <p className="project-story-copy">{project.description}</p>
-                  </div>
-                  <div className="project-story-block">
-                    <p className="project-story-label">Built</p>
-                    <p className="project-story-copy">{project.build}</p>
-                  </div>
-                  <div className="project-story-block">
-                    <p className="project-story-label">Why it matters</p>
-                    <p className="project-story-copy">{project.impact}</p>
-                  </div>
-                </div>
+                <p className="project-hook">{project.description}</p>
+
+                <ul className="project-bullets">
+                  <li>{project.build}</li>
+                  <li>{project.impact}</li>
+                </ul>
 
                 <div className="project-tech">
                   {project.tech.map((tech) => (
@@ -496,7 +454,7 @@ function Stack() {
             What I work with
           </m.h2>
           <m.p variants={reveal} className="section-sub">
-            A practical stack matters more than a huge one. These are the tools and patterns that show up repeatedly in the way I build.
+            A focused stack is enough when the work is clear.
           </m.p>
         </m.div>
 
@@ -530,10 +488,8 @@ function Stack() {
             viewport={viewport}
             transition={{ duration: 0.55 }}
           >
-            <p className="stack-note-label">Why this stack feels personal</p>
-            <p className="stack-note-copy">
-              It lets me move from interface to API to deployment without changing the language of the project.
-            </p>
+            <p className="stack-note-label">Core tools</p>
+            <p className="stack-note-copy">These are the pieces I actually use again and again.</p>
             <a href={PROFILE.githubUrl} target="_blank" rel="noopener noreferrer" className="stack-note-link">
               View GitHub ↗
             </a>
@@ -564,7 +520,7 @@ function Experience() {
             The part that makes it credible
           </m.h2>
           <m.p variants={reveal} className="section-sub">
-            A memorable portfolio still needs proof. This section keeps the story grounded in education, internship work, and current building.
+            Education, internship work, and current focus.
           </m.p>
         </m.div>
 
@@ -587,18 +543,6 @@ function Experience() {
                   <div key={point} className="bring-row">
                     <span className="bring-index">0{index + 1}</span>
                     <span>{point}</span>
-                  </div>
-                ))}
-              </div>
-            </m.div>
-
-            <m.div variants={reveal} className="promise-box">
-              <p className="bring-box-label">Working style</p>
-              <div className="promise-list">
-                {CONTACT_PROMISES.map((promise) => (
-                  <div key={promise} className="promise-row">
-                    <span className="promise-bullet" />
-                    <span>{promise}</span>
                   </div>
                 ))}
               </div>
@@ -707,14 +651,6 @@ function Contact() {
             <a className="contact-mail" href={`mailto:${PROFILE.email}`}>
               {PROFILE.email}
             </a>
-            <div className="contact-promise-list">
-              {CONTACT_PROMISES.map((promise) => (
-                <div key={promise} className="contact-promise">
-                  <span className="contact-promise-dot" />
-                  <span>{promise}</span>
-                </div>
-              ))}
-            </div>
           </div>
 
           <form className="contact-box" onSubmit={handleSubmit} noValidate>
