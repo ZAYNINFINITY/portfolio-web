@@ -1,41 +1,91 @@
-# toha-example-site
+# My Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b1b93b02-f278-440b-ae1b-304e9f4c4ab5/deploy-status)](https://app.netlify.com/sites/toha/deploys) [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fhugo-toha%2Fhugo-toha.github.io%2Fbadge%3Fref%3Dmain&style=flat)](https://actions-badge.atrox.dev/hugo-toha/hugo-toha.github.io/goto?ref=main) ![Repository Size](https://img.shields.io/github/repo-size/hugo-themes/toha-example-site) ![Contributor](https://img.shields.io/github/contributors/hugo-themes/toha-example-site) ![Last Commit](https://img.shields.io/github/last-commit/hugo-themes/toha-example-site) ![License](https://img.shields.io/github/license/hugo-themes/toha-example-site) ![Open Issues](https://img.shields.io/github/issues/hugo-themes/toha-example-site?color=important) ![Open Pull Requests](https://img.shields.io/github/issues-pr/hugo-themes/toha-example-site?color=yellowgreen) ![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fhugo-themes.github.io/toha-example-site%2F) [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/b7cb60ab/hugo-themes.github.io/toha-example-site)
+A personal portfolio website showcasing my projects, skills, and experience. Built from scratch using clean, semantic HTML and modern SCSS styling.
 
-An example hugo static site with Toha theme.
+## About This Project
 
-Attributions:
+This is my custom portfolio website designed to present my work and professional profile. I created this portfolio using a template as a starting point and customized it entirely to reflect my personal brand and style. The website is built with foundational web technologies—HTML for structure and SCSS for styling—keeping it lightweight, fast, and easy to maintain.
 
-- <a href='https://www.freepik.com/vectors/business'>Business vector created by studiogstock - www.freepik.com</a>
+## Features
 
-## Requirements
+- 🎨 Fully customized design and layout
+- 📱 Responsive and mobile-friendly
+- ⚡ Fast loading with optimized assets
+- 🎯 Clean, semantic HTML structure
+- 💅 Modern SCSS styling with variables and mixins
 
-We use [jdx/mise](https://github.com/jdx/mise) to manage dependencies. Mise takes care of installing `hugo`, `go`, `nodes` and other tools to appropriate versions. Please, install it following the instruction from [here](https://mise.jdx.dev/getting-started.html).
+## Tech Stack
 
-## Running Locally
+- **HTML** (84%) - Semantic markup for structure and content
+- **SCSS** (16%) - Preprocessed CSS for styling and theming
 
-- Install dependencies
+## Getting Started
+
+### View the Website
+
+Simply open `index.html` in your web browser, or visit the live version if deployed.
+
+### Local Development
+
+1. Clone the repository:
+```bash
+git clone https://github.com/ZAYNINFINITY/portfolio-web.git
+cd portfolio-web
+```
+
+2. Open with a local server (recommended):
+```bash
+# Using Python 3
+python -m http.server 8000
+
+# Using Node.js
+npx http-server
+```
+
+3. Open your browser and navigate to `http://localhost:8000`
+
+### Customizing the Styles
+
+If you want to modify the SCSS:
+
+```bash
+# Install dependencies (if using npm)
+npm install
+
+# Watch for SCSS changes and compile
+npm run watch
+
+# Build for production
+npm run build
+```
+
+## Project Structure
 
 ```
-mise install
+portfolio-web/
+├── index.html           # Main portfolio page
+├── css/
+│   └── style.css        # Compiled stylesheet
+├── scss/
+│   └── style.scss       # Source styles
+└── images/              # Portfolio images and assets
 ```
 
-- Run hugo server
+## Customization Tips
 
-```
-mise run server
-```
+This portfolio started as a template but was customized to be uniquely mine:
 
-## Updating theme
+- **Content**: Updated all text with my own projects, skills, and bio
+- **Colors & Fonts**: Modified the design variables in SCSS to match my personal brand
+- **Layout**: Adjusted sections and structure to highlight my work
+- **Images**: Replaced with my own project screenshots and photos
 
-- To update theme to latest release, run:
+Feel free to fork this and customize it for yourself!
 
-```
-mise run update
-```
+## License
 
-- To update theme to latest commit from `main` brnach, run:
+This project is open source and available for personal and educational use.
 
-```
-mise run update-to-main
-```
+---
+
+Built with passion. Designed by me. 🚀
