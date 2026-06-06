@@ -1,5 +1,5 @@
-baseURL: https://zayninfinity.github.io/
-title: "Zain Ul Abideen"
+baseURL: https://zainportfoli0.netlify.app/
+title: "Zain Ul Abideen | Portfolio"
 
 module:
   imports:
@@ -20,7 +20,7 @@ languages:
   en:
     locale: en
     label: English
-    title: "Zain Ul Abideen"
+    title: "Zain Ul Abideen | Portfolio"
     weight: 1
 
 markup:
