@@ -1,0 +1,90 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050505"/>
+      <stop offset="0.55" stop-color="#0B0710"/>
+      <stop offset="1" stop-color="#090B14"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="260" y1="90" x2="1340" y2="810" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17171A"/>
+      <stop offset="1" stop-color="#101114"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="390" y1="200" x2="1240" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38D8F3"/>
+      <stop offset="1" stop-color="#5A6CFF"/>
+    </linearGradient>
+    <filter id="shadow" x="180" y="70" width="1240" height="760" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="14" stdDeviation="24" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1600" height="56" fill="#121215" opacity="0.95"/>
+  <rect x="0" y="56" width="1600" height="1" fill="#2A2A30"/>
+
+  <g opacity="0.95">
+    <rect x="272" y="18" width="28" height="28" rx="9" fill="#FFFFFF"/>
+    <circle cx="286" cy="32" r="7" fill="url(#accent)"/>
+    <path d="M280 32L286 26L292 32L286 38L280 32Z" fill="#F5F7FA"/>
+    <text x="315" y="37" fill="#66E3F7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Collab</text>
+    <text x="560" y="36" fill="#C8C8CE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Features</text>
+    <text x="650" y="36" fill="#C8C8CE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Pricing</text>
+    <text x="730" y="36" fill="#C8C8CE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Security</text>
+    <text x="830" y="36" fill="#C8C8CE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Contact</text>
+    <rect x="1120" y="14" width="66" height="32" rx="11" fill="#1C1C20" stroke="#4B4B52"/>
+    <text x="1140" y="35" fill="#F3F3F5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Sign in</text>
+    <rect x="1194" y="14" width="82" height="32" rx="11" fill="#31D6F0"/>
+    <text x="1210" y="35" fill="#061017" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="800">Get started</text>
+  </g>
+
+  <ellipse cx="1040" cy="210" rx="420" ry="260" fill="#241036" opacity="0.22"/>
+  <ellipse cx="560" cy="220" rx="360" ry="230" fill="#0E2E38" opacity="0.18"/>
+
+  <g filter="url(#shadow)">
+    <rect x="240" y="96" width="1120" height="708" rx="22" fill="url(#panel)" stroke="#26262D"/>
+    <rect x="240" y="96" width="1120" height="56" rx="22" fill="#16161A" opacity="0.85"/>
+    <rect x="240" y="140" width="1120" height="1" fill="#2A2A30"/>
+
+    <text x="800" y="240" text-anchor="middle" fill="#F8F8FB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="800">Collaborate in Real-Time</text>
+    <text x="800" y="277" text-anchor="middle" fill="#AEB0B7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="500">A shared workspace for teams to chat, manage tasks, edit documents, and</text>
+    <text x="800" y="302" text-anchor="middle" fill="#AEB0B7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="500">ship faster in one place.</text>
+
+    <rect x="620" y="336" width="108" height="34" rx="11" fill="#31D6F0"/>
+    <text x="674" y="358" text-anchor="middle" fill="#061017" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="800">Get Started Free</text>
+    <rect x="740" y="336" width="66" height="34" rx="11" fill="#1B1B20" stroke="#4A4A50"/>
+    <text x="773" y="358" text-anchor="middle" fill="#F4F4F6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Sign In</text>
+
+    <text x="800" y="447" text-anchor="middle" fill="#F5F6F8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="800">Why Choose Collab?</text>
+    <text x="800" y="470" text-anchor="middle" fill="#AEB0B7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="500">Everything you need for seamless team collaboration</text>
+
+    <g>
+      <rect x="325" y="496" width="412" height="108" rx="14" fill="#151517" stroke="#323238"/>
+      <circle cx="353" cy="522" r="7" fill="#66E3F7"/>
+      <circle cx="346" cy="522" r="4" fill="#66E3F7"/>
+      <circle cx="360" cy="522" r="4" fill="#66E3F7"/>
+      <text x="335" y="564" fill="#F3F3F5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">TEAM COLLABORATION</text>
+      <text x="335" y="591" fill="#B0B2B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="500">Work together with your team in real-time</text>
+
+      <rect x="803" y="496" width="412" height="108" rx="14" fill="#151517" stroke="#323238"/>
+      <rect x="830" y="513" width="16" height="17" rx="4" fill="#66E3F7"/>
+      <rect x="833" y="506" width="10" height="12" rx="5" fill="#66E3F7"/>
+      <text x="813" y="564" fill="#F3F3F5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">SECURE &amp; PRIVATE</text>
+      <text x="813" y="591" fill="#B0B2B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="500">Your data is encrypted and secure</text>
+    </g>
+
+    <g>
+      <rect x="325" y="621" width="412" height="108" rx="14" fill="#151517" stroke="#323238"/>
+      <circle cx="353" cy="647" r="7" fill="#66E3F7"/>
+      <rect x="349" y="643" width="8" height="8" rx="4" fill="#66E3F7"/>
+      <text x="335" y="689" fill="#F3F3F5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">REAL-TIME SYNC</text>
+      <text x="335" y="716" fill="#B0B2B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="500">Changes sync instantly across all devices</text>
+
+      <rect x="803" y="621" width="412" height="108" rx="14" fill="#151517" stroke="#323238"/>
+      <path d="M833 646l18-8-5 9 8 4-18 8 5-9-8-4Z" fill="#66E3F7"/>
+      <text x="813" y="689" fill="#F3F3F5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">LIGHTNING FAST</text>
+      <text x="813" y="716" fill="#B0B2B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="500">Optimized for speed and performance</text>
+    </g>
+
+    <text x="800" y="815" text-anchor="middle" fill="#F5F6F8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">Ready to get started?</text>
+    <text x="800" y="838" text-anchor="middle" fill="#AEB0B7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="500">Join thousands of teams already collaborating on Collab.</text>
+  </g>
+</svg>

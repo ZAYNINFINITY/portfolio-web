@@ -1,0 +1,6 @@
+section:
+  name: Publications
+  id: publications
+  enable: false
+  weight: 7
+  showOnNavbar: false

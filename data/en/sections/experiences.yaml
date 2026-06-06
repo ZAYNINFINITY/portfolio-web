@@ -1,0 +1,37 @@
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+experiences:
+- company:
+    name: TEKNEFY
+    url: "#"
+    location: Islamabad, Pakistan
+    logo: /images/sections/experiences/teknefy.png
+    overview: Web development agency based in Islamabad, Pakistan.
+  positions:
+  - designation: Web Developer Intern
+    start: Jul 2025
+    end: Sep 2025
+    responsibilities:
+    - Worked cross-functionally on web features alongside senior developers.
+    - Participated in code reviews and implemented feedback to production-level standards.
+    - Shipped bug fixes and new functionality within an agile team environment.
+    - Gained hands-on experience with professional development workflows and Git-based version control.
+
+- company:
+    name: PAF-IAST
+    url: "https://paf-iast.edu.pk/"
+    location: Islamabad, Pakistan
+    logo: /images/sections/experiences/pafiast.png
+    overview: Institute of Avionics and Aeronautics — BS Computer Science program.
+  positions:
+  - designation: BS Computer Science Student
+    start: 2024
+    responsibilities:
+    - Applying OOP, data structures, database systems, and network programming through real shipped projects.
+    - Building full-stack applications that go beyond coursework into production-ready territory.
+    - Maintaining strong academic performance while shipping real software independently.

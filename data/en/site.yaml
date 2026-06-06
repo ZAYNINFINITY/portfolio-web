@@ -1,0 +1,10 @@
+copyright: © 2026 Zain Ul Abideen
+
+description: Portfolio of Zain Ul Abideen — Full-Stack Developer building MERN products, real-time systems, and cross-platform apps. Based in Islamabad, Pakistan.
+
+openGraph:
+  title: "Zain Ul Abideen — Full-Stack Developer"
+  type: website
+  description: CS student building full-stack products from idea to deployment. MERN, real-time, cross-platform.
+  image: images/author/avatar.png
+  url: https://zayninfinity.github.io

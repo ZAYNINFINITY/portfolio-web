@@ -1,0 +1,23 @@
+section:
+  name: Achievements
+  id: achievements
+  enable: true
+  weight: 6
+  showOnNavbar: true
+
+achievements:
+- title: Shipped a Live Browser Extension
+  image: /images/sections/achievements/extension.png
+  summary: Built and published ScrollStreak on the Microsoft Edge Add-ons store — a real Chrome/Edge extension that tracks Instagram Reels, runs friend duels, and shows weekly Wrapped stats. Zero budget, solo shipped.
+
+- title: Completed Industry Internship
+  image: /images/sections/achievements/intern.png
+  summary: Completed a professional web development internship at TEKNEFY, Islamabad (Jul–Sep 2025). Worked on real client projects in a cross-functional team, participated in code reviews, and shipped production features.
+
+- title: Built a Real-time SaaS from Scratch
+  image: /images/sections/achievements/mern.png
+  summary: Designed and built a full MERN collaboration platform with Socket.io live chat, OAuth 2.0 auth, Kanban boards, and multi-user document editing — all solo, from architecture to deployment.
+
+- title: 12+ GitHub Repositories
+  image: /images/sections/achievements/github.png
+  summary: Actively building and publishing projects on GitHub across full-stack web, real-time systems, cross-platform apps, DSA visualizers, and CLI games. Every repo is a real shipped project, not just coursework.

@@ -1,0 +1,116 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Hospital Patient Queue System</title>
+  <desc id="desc">Dark dashboard mockup with a control panel, queue area, and assistant panel.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6078F0"/>
+      <stop offset="0.52" stop-color="#7260D0"/>
+      <stop offset="1" stop-color="#5B54B0"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#17181C"/>
+      <stop offset="1" stop-color="#111216"/>
+    </linearGradient>
+    <linearGradient id="queue" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#8A315E"/>
+      <stop offset="1" stop-color="#EA3478"/>
+    </linearGradient>
+    <linearGradient id="pill" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7A79F3"/>
+      <stop offset="1" stop-color="#6850C7"/>
+    </linearGradient>
+    <filter id="shadow" x="80" y="0" width="1440" height="900" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="26" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="130" y="18" width="1340" height="144" rx="16" fill="#121212"/>
+    <text x="800" y="76" text-anchor="middle" fill="#6E83F5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="800">🏥 Hospital Patient Queue System</text>
+    <text x="800" y="122" text-anchor="middle" fill="#A7E4B2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="500">● Connected to Backend</text>
+
+    <rect x="130" y="186" width="390" height="664" rx="16" fill="url(#card)"/>
+    <rect x="548" y="186" width="922" height="664" rx="16" fill="url(#card)"/>
+
+    <text x="160" y="242" fill="#5C78F3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">📋 Control Panel</text>
+
+    <g font-family="Inter, Segoe UI, Arial, sans-serif">
+      <text x="160" y="288" fill="#F2F4F8" font-size="17" font-weight="700">Patient Name</text>
+      <rect x="160" y="300" width="330" height="44" rx="8" fill="#262626" stroke="#3A3A3A"/>
+      <text x="176" y="329" fill="#8E8E8E" font-size="15">Enter full name</text>
+
+      <text x="160" y="386" fill="#F2F4F8" font-size="17" font-weight="700">Age</text>
+      <rect x="160" y="398" width="330" height="44" rx="8" fill="#262626" stroke="#3A3A3A"/>
+      <text x="176" y="427" fill="#8E8E8E" font-size="15">Enter age</text>
+
+      <text x="160" y="484" fill="#F2F4F8" font-size="17" font-weight="700">Priority Level</text>
+      <rect x="160" y="496" width="330" height="44" rx="8" fill="#262626" stroke="#3A3A3A"/>
+      <circle cx="188" cy="518" r="8" fill="#F04F62"/>
+      <text x="205" y="523" fill="#F2F4F8" font-size="15" font-weight="700">High (Critical)</text>
+    </g>
+
+    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="700">
+      <rect x="160" y="556" width="330" height="42" rx="8" fill="#647CEB"/>
+      <text x="325" y="584" text-anchor="middle" fill="#FFFFFF" font-size="16">➕ Add Patient</text>
+
+      <rect x="160" y="606" width="330" height="42" rx="8" fill="#49B56E"/>
+      <text x="325" y="634" text-anchor="middle" fill="#FFFFFF" font-size="16">☑ Serve Next</text>
+
+      <rect x="160" y="656" width="330" height="42" rx="8" fill="#F08C2C"/>
+      <text x="325" y="684" text-anchor="middle" fill="#FFFFFF" font-size="16">↕ Sort</text>
+
+      <rect x="160" y="706" width="330" height="42" rx="8" fill="#4A98E1"/>
+      <text x="325" y="734" text-anchor="middle" fill="#FFFFFF" font-size="16">💾 Export</text>
+
+      <rect x="160" y="756" width="330" height="42" rx="8" fill="#F15F5F"/>
+      <text x="325" y="784" text-anchor="middle" fill="#FFFFFF" font-size="16">🗑 Clear</text>
+    </g>
+
+    <rect x="160" y="814" width="330" height="0" fill="none"/>
+    <g>
+      <circle cx="246" cy="828" r="36" fill="url(#pill)"/>
+      <circle cx="404" cy="828" r="36" fill="url(#pill)"/>
+      <text x="246" y="821" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="800">0</text>
+      <text x="246" y="842" text-anchor="middle" fill="#E7EAF4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="500">In Queue</text>
+      <text x="404" y="821" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="26" font-weight="800">6</text>
+      <text x="404" y="842" text-anchor="middle" fill="#E7EAF4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="500">Served</text>
+    </g>
+
+    <text x="576" y="242" fill="#5C78F3" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">👥 Current Queue</text>
+    <rect x="575" y="268" width="855" height="44" rx="8" fill="#252525" stroke="#404040"/>
+    <text x="595" y="296" fill="#8E8E8E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Search by name...</text>
+
+    <rect x="575" y="332" width="855" height="112" rx="14" fill="url(#queue)" opacity="0.98"/>
+    <text x="602" y="372" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">📋 Serving Counter</text>
+
+    <rect x="575" y="456" width="855" height="392" rx="14" fill="#232428"/>
+    <text x="1002" y="662" text-anchor="middle" fill="#9AB0D1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="500">No patients in queue</text>
+    <text x="1002" y="618" text-anchor="middle" fill="#F6B25D" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54">📋</text>
+
+    <g>
+      <rect x="1292" y="520" width="240" height="318" rx="14" fill="#232325" opacity="0.98"/>
+      <rect x="1292" y="520" width="240" height="58" rx="14" fill="url(#pill)"/>
+      <text x="1312" y="555" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">🤖 Queue Assistant</text>
+      <circle cx="1510" cy="549" r="11" fill="#6D56A0"/>
+      <text x="1510" y="555" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">×</text>
+
+      <rect x="1308" y="596" width="208" height="180" rx="8" fill="#1B1B1D" stroke="#444"/>
+      <text x="1322" y="628" fill="#E5ECFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Hello! I&apos;m your hospital queue</text>
+      <text x="1322" y="648" fill="#E5ECFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">assistant. I can help you with:</text>
+      <text x="1322" y="674" fill="#E5ECFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">• Queue status and patient</text>
+      <text x="1322" y="694" fill="#E5ECFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">count</text>
+      <text x="1322" y="718" fill="#E5ECFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">• Next patient information</text>
+      <text x="1322" y="742" fill="#E5ECFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">• Patient details</text>
+      <text x="1322" y="766" fill="#E5ECFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">• Priority system explanation</text>
+      <text x="1322" y="790" fill="#E5ECFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">• Hospital information</text>
+      <text x="1322" y="826" fill="#E5ECFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">How can I help you today?</text>
+
+      <rect x="1308" y="836" width="160" height="32" rx="14" fill="#1B1B1D" stroke="#4450A8"/>
+      <text x="1320" y="856" fill="#8B8B8B" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11">Type your message...</text>
+      <circle cx="1494" cy="852" r="16" fill="#7A6EE4"/>
+      <path d="M1488 852L1498 847L1495 852L1498 857L1488 852Z" fill="#FFFFFF"/>
+    </g>
+  </g>
+</svg>

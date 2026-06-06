@@ -1,0 +1,102 @@
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+
+buttons:
+- name: All
+  filter: "all"
+- name: Frontend
+  filter: "frontend"
+- name: Backend
+  filter: "backend"
+- name: Database
+  filter: "database"
+- name: Tools
+  filter: "tools"
+
+skills:
+- name: React
+  logo: files/react.png
+  summary: "Building responsive, component-driven UIs. Comfortable with hooks, state management, and REST API integration."
+  categories: ["frontend"]
+  url: "https://react.dev/"
+
+- name: JavaScript
+  logo: files/js.png
+  summary: "Core language — ES6+, async/await, DOM manipulation, and functional patterns used daily across frontend and backend."
+  categories: ["frontend", "backend"]
+  url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+
+- name: HTML5 & CSS3
+  logo: files/html.png
+  summary: "Semantic HTML, responsive layouts, Flexbox, Grid, and CSS animations."
+  categories: ["frontend"]
+
+- name: Tailwind CSS
+  logo: files/tailwind.png
+  summary: "Utility-first CSS for building clean, consistent, responsive interfaces quickly."
+  categories: ["frontend"]
+  url: "https://tailwindcss.com/"
+
+- name: Node.js
+  logo: files/nodejs.png
+  summary: "Server-side JavaScript — REST APIs, middleware, authentication flows, and real-time features."
+  categories: ["backend"]
+  url: "https://nodejs.org/"
+
+- name: Express.js
+  logo: files/express.png
+  summary: "Minimal, fast Node.js framework for building APIs and server-side applications."
+  categories: ["backend"]
+  url: "https://expressjs.com/"
+
+- name: Socket.io
+  logo: files/socketio.png
+  summary: "Real-time bidirectional event-based communication. Used for live collaboration features."
+  categories: ["backend"]
+  url: "https://socket.io/"
+
+- name: Python
+  logo: files/python.png
+  summary: "Used for backend APIs with Flask, scripting, and data structures implementations."
+  categories: ["backend"]
+  url: "https://www.python.org/"
+
+- name: C++
+  logo: files/cpp.png
+  summary: "Systems-level programming — OOP, memory management, and data structure implementations."
+  categories: ["backend"]
+  url: "https://isocpp.org/"
+
+- name: MongoDB
+  logo: files/mongodb.png
+  summary: "Document-based NoSQL — schema design, queries, and aggregation pipelines."
+  categories: ["database"]
+  url: "https://www.mongodb.com/"
+
+- name: MySQL
+  logo: files/mysql.png
+  summary: "Relational database design, joins, indexing, and transactional queries."
+  categories: ["database"]
+  url: "https://www.mysql.com/"
+
+- name: OAuth 2.0 & JWT
+  logo: files/oauth.png
+  summary: "Implementing secure authentication flows with Passport.js, sessions, and JWT tokens."
+  categories: ["backend"]
+
+- name: Git & GitHub
+  logo: files/git.png
+  summary: "Version control, branching strategies, pull requests, and collaborative workflows."
+  categories: ["tools"]
+  url: "https://git-scm.com/"
+
+- name: Vite
+  logo: files/vite.png
+  summary: "Fast modern build tool for React projects. Familiar with HMR, config, and plugins."
+  categories: ["tools"]
+  url: "https://vitejs.dev/"

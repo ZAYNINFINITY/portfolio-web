@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Avatar icon</title>
+  <desc id="desc">A stylized circular avatar with initials ZU.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="256" fill="url(#bg)" />
+  <circle cx="256" cy="256" r="226" fill="none" stroke="url(#ring)" stroke-width="10" opacity="0.7" />
+  <circle cx="256" cy="212" r="74" fill="#cbd5e1" opacity="0.16" />
+  <path d="M140 392c18-61 68-98 116-98s98 37 116 98" fill="#cbd5e1" opacity="0.16" />
+  <text x="50%" y="56%" text-anchor="middle" fill="#f8fafc" font-size="118" font-weight="700" font-family="Arial, Helvetica, sans-serif" letter-spacing="4">ZU</text>
+</svg>

@@ -1,0 +1,30 @@
+section:
+  name: Education
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+degrees:
+- name: BS Computer Science
+  icon: fa-graduation-cap
+  timeframe: "2024 - Present"
+  institution:
+    name: Pak-Austria Fachhochschule Institute of Applied Sciences and Technology
+    url: "https://paf-iast.edu.pk/"
+    logo: /images/sections/education/pafiast.png
+  takenCourses:
+    showGrades: false
+    collapseAfter: 5
+    courses:
+    - name: Data Structures & Algorithms
+    - name: Object Oriented Programming
+    - name: Database Systems
+    - name: Computer Networks
+    - name: Operating Systems
+    - name: Software Engineering
+  extracurricularActivities:
+    - Applying DSA and OOP concepts through real shipped projects beyond coursework.
+    - Building full-stack applications that go into production-ready territory.
+    - Actively learning and implementing modern web development practices independently.

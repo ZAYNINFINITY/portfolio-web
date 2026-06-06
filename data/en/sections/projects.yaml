@@ -1,0 +1,79 @@
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+buttons:
+- name: All
+  filter: "all"
+- name: Full-stack
+  filter: "fullstack"
+- name: Real-time
+  filter: "realtime"
+- name: Extension
+  filter: "extension"
+- name: Systems
+  filter: "systems"
+
+projects:
+- name: Collaborative Workspace Platform
+  logo: /images/sections/projects/collab-logo.svg
+  image: /images/sections/projects/collab-cover.svg
+  role: Solo Developer
+  timeline: "2025 - Present"
+  repo: https://github.com/ZAYNINFINITY/collaborative-workspace
+  summary: Full-stack MERN collaboration platform with live chat via Socket.io, multi-user document editing, Kanban task boards, and OAuth 2.0 authentication. Built to handle concurrent users with real-time event broadcasting.
+  tags: ["fullstack", "realtime"]
+
+- name: ZSE Store
+  logo: /images/sections/projects/zse.jpg
+  image: /images/sections/projects/zse.jpg
+  role: Solo Developer
+  timeline: "2024"
+  url: "https://zsesanitary.com"
+  summary: Live e-commerce site for a real sanitary and electric products business. Built with a full product catalog, brand filtering, WhatsApp order integration, and a clean responsive UI.
+  tags: ["fullstack"]
+
+- name: ScrollStreak
+  logo: /images/sections/projects/scrollstreak.jpg
+  image: /images/sections/projects/scrollstreak.jpg
+  role: Solo Developer
+  timeline: "2025"
+  url: "https://scrollstreak.netlify.app"
+  summary: Chrome and Edge browser extension that tracks Instagram Reels watched, shows a live counter overlay, and lets you challenge friends to duels with leaderboards and weekly Wrapped stats. Published on Microsoft Edge Add-ons store.
+  tags: ["extension", "fullstack"]
+
+- name: Streamer Dash
+  logo: /images/sections/projects/streamerdash.jpg
+  image: /images/sections/projects/streamerdash.jpg
+  role: Solo Developer
+  timeline: "2025"
+  summary: Browser-based streamer face-clicking game. Pick a Hero, Villain, and Ghost from real streamers, click hero faces for points while avoiding villains. Built as a fun interactive web experience.
+  tags: ["fullstack"]
+
+- name: Car Auction Management System
+  logo: /images/sections/projects/carauction.png
+  role: Solo Developer
+  timeline: "2024"
+  repo: https://github.com/ZAYNINFINITY/CARAUCTION-MANAGEMENT-SYSTEM
+  summary: Full auction platform with vehicle listings, live bidding logic, transaction history, and user management. Python and MySQL backend with a clean frontend built for real auction workflows.
+  tags: ["fullstack", "systems"]
+
+- name: DSA Queue Visualizer
+  logo: /images/sections/projects/dsa-logo.svg
+  image: /images/sections/projects/dsa-cover.svg
+  role: Solo Developer
+  timeline: "2024"
+  repo: https://github.com/ZAYNINFINITY/DSA-PROJ-V2
+  summary: Interactive browser-based visual implementation of queue data structures. Renders enqueue and dequeue operations step by step, making abstract DSA concepts concrete and easy to understand.
+  tags: ["systems"]
+
+- name: Hangman Game
+  logo: /images/sections/projects/hangman.png
+  role: Solo Developer
+  timeline: "2023"
+  repo: https://github.com/ZAYNINFINITY/Hangman
+  summary: Classic word-guessing game implemented in C++ with clean game loop logic, state management, and terminal UI. Demonstrates solid fundamentals in systems-level programming.
+  tags: ["systems"]

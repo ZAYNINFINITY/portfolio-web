@@ -1,0 +1,6 @@
+section:
+  name: Featured Posts
+  id: featured-posts
+  enable: false
+  weight: 9
+  showOnNavbar: false

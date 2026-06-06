@@ -1,0 +1,17 @@
+name: "Zain Ul Abideen"
+nickname: "Zain"
+greeting: "Hi, I am"
+
+image: "images/author/avatar.png"
+
+contactInfo:
+  email: "zaynbu269@gmail.com"
+  github: ZAYNINFINITY
+  linkedin: zain-ul-abideen-429735231
+
+summary:
+  - I am a Full-Stack Developer
+  - I build with the MERN stack
+  - I love real-time systems
+  - I ship things that actually work
+  - I am open to internships and junior roles
