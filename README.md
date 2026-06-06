@@ -1,41 +1,72 @@
-# toha-example-site
+# Portfolio Web
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b1b93b02-f278-440b-ae1b-304e9f4c4ab5/deploy-status)](https://app.netlify.com/sites/toha/deploys) [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fhugo-toha%2Fhugo-toha.github.io%2Fbadge%3Fref%3Dmain&style=flat)](https://actions-badge.atrox.dev/hugo-toha/hugo-toha.github.io/goto?ref=main) ![Repository Size](https://img.shields.io/github/repo-size/hugo-themes/toha-example-site) ![Contributor](https://img.shields.io/github/contributors/hugo-themes/toha-example-site) ![Last Commit](https://img.shields.io/github/last-commit/hugo-themes/toha-example-site) ![License](https://img.shields.io/github/license/hugo-themes/toha-example-site) ![Open Issues](https://img.shields.io/github/issues/hugo-themes/toha-example-site?color=important) ![Open Pull Requests](https://img.shields.io/github/issues-pr/hugo-themes/toha-example-site?color=yellowgreen) ![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fhugo-themes.github.io/toha-example-site%2F) [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/b7cb60ab/hugo-themes.github.io/toha-example-site)
+A personal portfolio website built with HTML and SCSS.
 
-An example hugo static site with Toha theme.
+## Project Overview
 
-Attributions:
+This is a custom portfolio website showcasing projects, skills, and professional experience. The site is built with clean, semantic HTML and styled with SCSS for maintainability and scalability.
 
-- <a href='https://www.freepik.com/vectors/business'>Business vector created by studiogstock - www.freepik.com</a>
+## Tech Stack
 
-## Requirements
+- **HTML** (84%) - Semantic structure and content
+- **SCSS** (16%) - Styling and responsive design
 
-We use [jdx/mise](https://github.com/jdx/mise) to manage dependencies. Mise takes care of installing `hugo`, `go`, `nodes` and other tools to appropriate versions. Please, install it following the instruction from [here](https://mise.jdx.dev/getting-started.html).
+## Getting Started
 
-## Running Locally
+### Prerequisites
 
-- Install dependencies
+- A modern web browser
+- A code editor (VS Code, Sublime, etc.)
+- (Optional) Node.js and npm for SCSS compilation
 
-```
-mise install
-```
+### Installation
 
-- Run hugo server
-
-```
-mise run server
-```
-
-## Updating theme
-
-- To update theme to latest release, run:
-
-```
-mise run update
+1. Clone the repository:
+```bash
+git clone https://github.com/ZAYNINFINITY/portfolio-web.git
+cd portfolio-web
 ```
 
-- To update theme to latest commit from `main` brnach, run:
+2. If you have npm installed, you can compile SCSS:
+```bash
+npm install
+npm run build
+```
+
+3. Open `index.html` in your browser or use a local server:
+```bash
+# Using Python 3
+python -m http.server 8000
+
+# Using Node.js http-server
+npx http-server
+```
+
+## Customization
+
+To customize this portfolio:
+
+1. **Edit Content**: Update HTML files with your own information
+2. **Styling**: Modify SCSS files in the style directory to match your brand
+3. **Images**: Replace placeholder images with your own
+4. **Colors**: Update color variables in SCSS for easy theme customization
+
+## Project Structure
 
 ```
-mise run update-to-main
+portfolio-web/
+├── index.html
+├── css/
+│   └── style.css (compiled from SCSS)
+├── scss/
+│   └── style.scss
+└── images/
 ```
+
+## License
+
+This project is open source and available for personal use.
+
+---
+
+Feel free to customize this further based on your specific project structure and needs!
