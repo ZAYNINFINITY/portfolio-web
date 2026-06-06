@@ -1,5 +1,5 @@
 baseURL: https://zainportfoli0.netlify.app/
-title: "Zain Ul Abideen | Portfolio"
+title: "Zain Ul Abideen | MERN Stack Developer"
 
 module:
   imports:
@@ -20,7 +20,7 @@ languages:
   en:
     locale: en
     label: English
-    title: "Zain Ul Abideen | Portfolio"
+    title: "Zain Ul Abideen | MERN Stack Developer"
     weight: 1
 
 markup:
