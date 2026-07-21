@@ -1,41 +1,109 @@
-# toha-example-site
+# Zain Ul Abideen — Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b1b93b02-f278-440b-ae1b-304e9f4c4ab5/deploy-status)](https://app.netlify.com/sites/toha/deploys) [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fhugo-toha%2Fhugo-toha.github.io%2Fbadge%3Fref%3Dmain&style=flat)](https://actions-badge.atrox.dev/hugo-toha/hugo-toha.github.io/goto?ref=main) ![Repository Size](https://img.shields.io/github/repo-size/hugo-themes/toha-example-site) ![Contributor](https://img.shields.io/github/contributors/hugo-themes/toha-example-site) ![Last Commit](https://img.shields.io/github/last-commit/hugo-themes/toha-example-site) ![License](https://img.shields.io/github/license/hugo-themes/toha-example-site) ![Open Issues](https://img.shields.io/github/issues/hugo-themes/toha-example-site?color=important) ![Open Pull Requests](https://img.shields.io/github/issues-pr/hugo-themes/toha-example-site?color=yellowgreen) ![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fhugo-themes.github.io/toha-example-site%2F) [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/b7cb60ab/hugo-themes.github.io/toha-example-site)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b1b93b02-f278-440b-ae1b-304e9f4c4ab5/deploy-status)](https://app.netlify.com/sites/toha/deploys)
 
-An example hugo static site with Toha theme.
+Personal portfolio website built with [Hugo](https://gohugo.io/) and the [Toha](https://github.com/hugo-toha/toha) theme. Deployed on Netlify.
 
-Attributions:
+**Live:** [zayninfinity.github.io](https://zayninfinity.github.io/)
 
-- <a href='https://www.freepik.com/vectors/business'>Business vector created by studiogstock - www.freepik.com</a>
+---
 
-## Requirements
+## About
 
-We use [jdx/mise](https://github.com/jdx/mise) to manage dependencies. Mise takes care of installing `hugo`, `go`, `nodes` and other tools to appropriate versions. Please, install it following the instruction from [here](https://mise.jdx.dev/getting-started.html).
+Full-Stack Developer and CS student at **Pak-Austria Fachhochschule Institute of Applied Sciences and Technology**, Islamabad. Building production-grade web applications with the MERN stack.
 
-## Running Locally
+---
 
-- Install dependencies
+## Tech Stack
 
-```
+| Category | Technologies |
+|----------|-------------|
+| Frontend | React, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Vite |
+| Backend | Node.js, Express.js, Socket.io |
+| Database | MongoDB, MySQL |
+| Auth | OAuth 2.0, JWT, Passport.js |
+| Languages | JavaScript, Python, C++ |
+| Tools | Git, GitHub, VS Code, GitHub Actions |
+
+---
+
+## Featured Projects
+
+| Project | Description | Link |
+|---------|-------------|------|
+| **Collaborative Workspace** | Real-time MERN collaboration platform with live chat, Kanban boards, OAuth 2.0 | [GitHub](https://github.com/ZAYNINFINITY/collaborative-workspace) |
+| **POS-it** | Offline POS system built with Electron, React, and SQLite | Coming Soon |
+| **ZSE Store** | Live e-commerce site for sanitary & electric products | [zsesanitary.com](https://zsesanitary.com) |
+| **ScrollStreak** | Chrome/Edge extension tracking Instagram Reels watched | [Netlify](https://scrollstreak.netlify.app) |
+| **Car Auction System** | Full auction platform with bidding, Python + MySQL | [GitHub](https://github.com/ZAYNINFINITY/CARAUCTION-MANAGEMENT-SYSTEM) |
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- [Hugo](https://gohugo.io/installation/) (extended version)
+- [Go](https://go.dev/dl/)
+- [Node.js](https://nodejs.org/)
+- [mise](https://mise.jdx.dev/) (optional — manages all dependencies)
+
+### Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/ZAYNINFINITY/portfolio-web.git
+cd portfolio-web
+
+# Install dependencies
 mise install
+# OR manually: hugo mod install
+
+# Start dev server
+hugo server
 ```
 
-- Run hugo server
+The site will be available at `http://localhost:1313/`.
+
+---
+
+## Structure
 
 ```
-mise run server
+├── data/en/sections/    # Content configuration (YAML)
+│   ├── about.yaml       # Bio, social links, badges
+│   ├── skills.yaml      # Tech skills with descriptions
+│   ├── projects.yaml    # Project cards
+│   ├── experiences.yaml # Work & education history
+│   └── ...
+├── static/images/       # Static assets
+├── layouts/             # Custom Hugo templates
+├── hugo.yaml            # Hugo config
+└── netlify.toml         # Netlify deploy config
 ```
 
-## Updating theme
+---
 
-- To update theme to latest release, run:
+## How to Update Content
 
-```
-mise run update
-```
+All site content lives in `data/en/sections/*.yaml` files. Edit them directly — no code changes needed.
 
-- To update theme to latest commit from `main` brnach, run:
+- **Add a project:** Edit `data/en/sections/projects.yaml`
+- **Update skills:** Edit `data/en/sections/skills.yaml`
+- **Change bio:** Edit `data/en/sections/about.yaml`
 
-```
-mise run update-to-main
-```
+---
+
+## Deployment
+
+Automatically deployed to **Netlify** on every push to `main`.
+
+---
+
+## License
+
+MIT
+
+---
+
+Built by [Zain Ul Abideen](https://github.com/ZAYNINFINITY)
