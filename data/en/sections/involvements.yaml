@@ -1,0 +1,17 @@
+section:
+  name: Involvements
+  id: involvements
+  enable: true
+  weight: 2.5
+  showOnNavbar: true
+  template: sections/involvements.html
+
+involvements:
+- name: Google Developer Group on Campus (GDGC) — PAF-IAST
+  logo: /images/sections/involvements/gdgc.svg
+  summary: Active member of the Google Developer Group on Campus at PAF-IAST. Participated in workshops, tech talks, and community events focused on Google technologies, Android development, and cloud computing.
+  url: "https://gdg.community.dev/gdg-on-campus-pak-austria-fachhochschule-institute-of-applied-sciences-and-technology-haripur-pakistan/"
+
+- name: Cyberfest — PAF-IAST
+  logo: /images/sections/involvements/cyberfest.svg
+  summary: Participated in Cyberfest, the annual cybersecurity and tech festival at PAF-IAST. Engaged in CTF challenges, tech competitions, and networking with peers and industry professionals.

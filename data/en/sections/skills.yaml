@@ -21,82 +21,82 @@ buttons:
 skills:
 - name: React
   logo: files/react.png
-  summary: "Building responsive, component-driven UIs. Comfortable with hooks, state management, and REST API integration."
+  summary: "Built the Collaborative Workspace dashboard, POS-it desktop UI, and ZSE Store product catalog using hooks, component composition, and REST API integration."
   categories: ["frontend"]
   url: "https://react.dev/"
 
 - name: JavaScript
   logo: files/js.png
-  summary: "Core language — ES6+, async/await, DOM manipulation, and functional patterns used daily across frontend and backend."
+  summary: "Used across every project — Socket.io event handling in Collaborative Workspace, Electron IPC in POS-it, and WhatsApp order integration in ZSE Store."
   categories: ["frontend", "backend"]
   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
 
 - name: HTML5 & CSS3
   logo: files/html.png
-  summary: "Semantic HTML, responsive layouts, Flexbox, Grid, and CSS animations."
+  summary: "Built ZSE Store's product pages with semantic HTML and responsive layouts. Used Flexbox and Grid for the ScrollStreak extension popup and dashboard."
   categories: ["frontend"]
 
 - name: Tailwind CSS
   logo: files/tailwind.png
-  summary: "Utility-first CSS for building clean, consistent, responsive interfaces quickly."
+  summary: "Styled POS-it and the Collaborative Workspace UI with utility-first classes. Kept the design system consistent across 50+ components."
   categories: ["frontend"]
   url: "https://tailwindcss.com/"
 
 - name: Node.js
   logo: files/nodejs.png
-  summary: "Server-side JavaScript — REST APIs, middleware, authentication flows, and real-time features."
+  summary: "Built REST APIs for Collaborative Workspace (user auth, document endpoints) and ZSE Store (product catalog, order handling)."
   categories: ["backend"]
   url: "https://nodejs.org/"
 
 - name: Express.js
   logo: files/express.png
-  summary: "Minimal, fast Node.js framework for building APIs and server-side applications."
+  summary: "Structured middleware and routes for Collaborative Workspace backend and ZSE Store API. Handled auth, error handling, and static file serving."
   categories: ["backend"]
   url: "https://expressjs.com/"
 
 - name: Socket.io
   logo: files/socketio.png
-  summary: "Real-time bidirectional event-based communication. Used for live collaboration features."
+  summary: "Built real-time live chat and document collaboration in Collaborative Workspace — handled 10+ concurrent event types for broadcasting user actions."
   categories: ["backend"]
   url: "https://socket.io/"
 
 - name: Python
   logo: files/python.png
-  summary: "Used for backend APIs with Flask, scripting, and data structures implementations."
+  summary: "Built the Car Auction Management System backend with Python and MySQL. Wrote data processing scripts for ZSE Store inventory management."
   categories: ["backend"]
   url: "https://www.python.org/"
 
 - name: C++
   logo: files/cpp.png
-  summary: "Systems-level programming — OOP, memory management, and data structure implementations."
+  summary: "Built a Hangman game with game loop logic and state management. Implemented queue data structures for the DSA Queue Visualizer project."
   categories: ["backend"]
   url: "https://isocpp.org/"
 
 - name: MongoDB
   logo: files/mongodb.png
-  summary: "Document-based NoSQL — schema design, queries, and aggregation pipelines."
+  summary: "Designed schemas for Collaborative Workspace (users, documents, messages, tasks) and handled aggregation queries for real-time features."
   categories: ["database"]
   url: "https://www.mongodb.com/"
 
 - name: MySQL
   logo: files/mysql.png
-  summary: "Relational database design, joins, indexing, and transactional queries."
+  summary: "Built relational schemas for Car Auction (vehicles, bids, transactions) and ZSE Store (products, orders, users)."
   categories: ["database"]
   url: "https://www.mysql.com/"
 
 - name: OAuth 2.0 & JWT
   logo: files/oauth.png
-  summary: "Implementing secure authentication flows with Passport.js, sessions, and JWT tokens."
+  summary: "Implemented Google OAuth 2.0 login in Collaborative Workspace using Passport.js. Added JWT-based session persistence for protected routes."
   categories: ["backend"]
 
 - name: Git & GitHub
   logo: files/git.png
-  summary: "Version control, branching strategies, pull requests, and collaborative workflows."
+  summary: "Managed branches and pull requests across 12+ repositories. Used GitHub Actions for CI/CD in Collaborative Workspace."
   categories: ["tools"]
   url: "https://git-scm.com/"
 
 - name: Vite
   logo: files/vite.png
-  summary: "Fast modern build tool for React projects. Familiar with HMR, config, and plugins."
+  summary: "Used as the build tool for Collaborative Workspace and POS-it frontend. Configured HMR, path aliases, and plugin setup for both projects."
   categories: ["tools"]
   url: "https://vitejs.dev/"

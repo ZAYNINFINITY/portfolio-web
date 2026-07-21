@@ -12,6 +12,8 @@ buttons:
   filter: "fullstack"
 - name: Real-time
   filter: "realtime"
+- name: Desktop
+  filter: "desktop"
 - name: Extension
   filter: "extension"
 - name: Systems
@@ -26,6 +28,14 @@ projects:
   repo: https://github.com/ZAYNINFINITY/collaborative-workspace
   summary: Full-stack MERN collaboration platform with live chat via Socket.io, multi-user document editing, Kanban task boards, and OAuth 2.0 authentication. Built to handle concurrent users with real-time event broadcasting.
   tags: ["fullstack", "realtime"]
+
+- name: POS-it
+  logo: /images/sections/projects/pos_logo.png
+  image: /images/sections/projects/pos_logo.png
+  role: Solo Developer
+  timeline: "Coming Soon"
+  summary: Professional offline point-of-sale system built with Electron, React, and SQLite. Featuring real-time inventory, multi-user support, PDF invoicing, and auto-updates. Currently in production-grade development.
+  tags: ["desktop", "fullstack"]
 
 - name: ZSE Store
   logo: /images/sections/projects/zse.jpg

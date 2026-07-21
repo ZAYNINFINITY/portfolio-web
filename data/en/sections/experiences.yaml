@@ -7,6 +7,21 @@ section:
 
 experiences:
 - company:
+    name: FlyRank
+    url: "https://flyrank.ai"
+    location: Remote
+    logo: /images/sections/experiences/flyrank.png
+    overview: AI-powered organic growth platform for SEO, content, and AI search optimization.
+  positions:
+  - designation: Frontend AI Engineer
+    start: Jul 2026
+    end: Aug 2026
+    responsibilities:
+    - Building and maintaining front-end features for FlyRank's AI-driven platform.
+    - Working with React and modern JS frameworks on production UI components.
+    - Collaborating with AI engineers and senior developers on platform features.
+
+- company:
     name: TEKNEFY
     url: "#"
     location: Islamabad, Pakistan
@@ -27,7 +42,7 @@ experiences:
     url: "https://paf-iast.edu.pk/"
     location: Islamabad, Pakistan
     logo: /images/sections/experiences/pafiast.png
-    overview: Pak-Austria Fachhochschule Institute of Applied Sciences and Technology — BS Computer Science program.
+    overview: Institute of Avionics and Aeronautics — BS Computer Science program.
   positions:
   - designation: BS Computer Science Student
     start: 2024
