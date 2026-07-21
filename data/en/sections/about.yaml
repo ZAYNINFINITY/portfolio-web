@@ -11,7 +11,7 @@ company:
   name: PAF-IAST
   url: "https://paf-iast.edu.pk/"
 
-summary: 'I am a CS student at **Pak-Austria Fachhochschule Institute of Applied Sciences and Technology, Islamabad**, building full-stack web products from idea to deployment. My stack is MERN — [React](https://react.dev/) on the frontend, [Node.js](https://nodejs.org/) and Express on the backend, [MongoDB](https://www.mongodb.com/) for data. I have shipped real-time collaboration tools, e-commerce sites, cross-platform apps, and CLI games. I care deeply about how things work under the hood — whether it is designing an auth flow with OAuth 2.0, architecting a real-time event system with Socket.io, or writing clean C++ for a data structures project. Currently open to **internships** and **junior developer roles**.'
+summary: "I'm a CS student at PAF-IAST, Islamabad. I build full-stack web apps with React, Node.js, Express, and MongoDB. Some stuff I've made: a real-time collab tool with live chat and Kanban boards, an e-commerce site for a local sanitary business that's actually live, a Chrome extension for tracking Instagram Reels with friend duels, and a few C++ games and DSA projects. I like figuring out how things work — OAuth login, Socket.io events, data structures. Looking for internships and junior roles."
 
 socialLinks:
 - name: Email
