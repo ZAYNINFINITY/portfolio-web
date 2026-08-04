@@ -27,6 +27,8 @@ socialLinks:
 resourceLinks:
 - title: "My Resume"
   url: "files/resume.pdf"
+- title: "Book a Call"
+  url: "https://cal.com/zayn-oj26mm"
 
 badges:
 - type: soft-skill-indicator
